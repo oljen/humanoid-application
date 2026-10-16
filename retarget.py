@@ -34,8 +34,8 @@ env = OffScreenRenderEnv(bddl_file_name=bddl, camera_heights=128, camera_widths=
 env.seed(0)
 init_states = suite.get_task_init_states(TASK_ID)
 
-# 1. From 5 expert demos: where the gripper is relative to the bowl at the moment
-#    the bowl actually starts lifting (a confirmed grip), and relative to the plate on release
+# 1. From 5 expert demos: where the gripper sits relative to the bowl when the bowl
+#    actually starts lifting, and relative to the plate on release
 path = hf_hub_download("yifengzhu-hf/LIBERO-datasets",
                        f"libero_spatial/{task.name}_demo.hdf5", repo_type="dataset")
 g_rel, r_rel, g_quat = [], [], []
@@ -127,8 +127,8 @@ for k, f in enumerate(sorted(glob.glob("tracks/*_proc.npz"))):
     w = a * zi + (B - a * zi[gi])          # one rotation + scale + shift for the whole clip
     xy = np.stack([np.clip(w.real, -0.30, 0.25), np.clip(w.imag, -0.30, 0.35)], 1)
 
-    # 3. Height is scripted: stay 6-8cm up near the bowl / plate while following the hand;
-    #    the last bit down and up is done straight vertically, like the expert robot
+    # 3. Height is scripted: stay 6-8cm up while following the hand, then straight down
+    #    and straight up at the ends, like the expert robot
     pos = xy[:, 0] + 1j * xy[:, 1]
     dB, dP = np.abs(pos - B), np.abs(pos - P)
     ramp = lambda dist: np.clip(dist / RAMP, 0, 1)

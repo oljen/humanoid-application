@@ -13,7 +13,7 @@ This project is a small version of that loop. I used my own phone, a bowl and a 
 
 *Left: one of my phone clips with the tracked hand. Middle: the same motion retargeted onto a Panda arm in LIBERO. Right: a policy trained on robot demonstrations retargeted from my phone clips (plus 9 extra clips aimed at its weak spots), picking up a bowl moved 5 cm from where it was in training.*
 
-> **Note on AI use.** I used Claude as a debugging assistant while developing the project, mainly to help identify code errors, write comments and organise experiments. The project idea, experimental design, data collection and README are my own.
+> **Note on AI use.** I used Claude as a debugging and coding assistant while developing the project, mainly to help identify code errors, write comments and organise experiments. The project idea, experimental design, data collection and README are my own.
 
 ## Summary of My Project
 

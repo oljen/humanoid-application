@@ -187,7 +187,7 @@ def evaluate(n, seed_base, video_prefix=None):
     model.train()
     return float(np.mean(wins))
 
-# ---------- train; keep the checkpoint that does best on separate PRACTICE layouts ----------
+# ---------- train; keep the checkpoint that does best on the practice layouts ----------
 CHECK_AT = {1000, 2500, 5000, 7500, 10000, args.steps}
 VAL_SEEDS, TEST_SEEDS = 20_000, 10_000
 os.makedirs("eval_videos", exist_ok=True); os.makedirs("models", exist_ok=True)

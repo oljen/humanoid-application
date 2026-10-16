@@ -1,5 +1,5 @@
-"""Controlled test: hover above the bowl's grip spot, descend straight down,
-close, lift. Try several heights and report which ones pick the bowl up."""
+"""Hover above the bowl's grip spot, go straight down, close, lift.
+Tries a few heights and reports which ones actually pick the bowl up."""
 import os
 os.environ["MUJOCO_GL"] = "egl"
 import numpy as np
