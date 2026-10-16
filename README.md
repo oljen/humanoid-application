@@ -13,7 +13,7 @@ This project is a small version of that loop. I used my own phone, a bowl and a 
 
 *Left: one of my phone clips with the tracked hand. Middle: the same motion retargeted onto a Panda arm in LIBERO. Right: a policy trained on my clips (plus 9 extra clips aimed at its weak spots), picking up a bowl moved 5 cm from where it was in training.*
 
-## TL;DR
+## Summary of My Project
 
 I recorded 54 short phone clips of my hand performing the task. These were converted into 42 robot demonstrations, and 40 of them replayed successfully in LIBERO.
 
