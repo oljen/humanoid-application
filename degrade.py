@@ -1,6 +1,3 @@
-"""Make Gaussian-blurred copies of every good clip at three strengths.
-Sigma is in pixels on the 1920x1080 video. MediaPipe shrinks frames to ~256 px wide,
-so sigma 6 / 12 / 24 here is roughly 0.8 / 1.6 / 3.2 px at the size it actually sees."""
 import cv2, glob, os, sys
 
 LEVELS = {"gauss6": 6, "gauss8": 8, "gauss10": 10, "gauss12": 12, "gauss24": 24}
