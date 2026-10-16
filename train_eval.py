@@ -1,9 +1,3 @@
-"""Train a small behaviour-cloning policy, then test it in LIBERO.
-Usage: python train_eval.py uniform|weighted|verified|expert [--steps 15000] [--episodes 50]
-  uniform  = all executed phone demos, equal weight
-  weighted = all executed phone demos, each step weighted by tracking confidence
-  verified = only phone demos whose replay succeeded in sim
-  expert   = the same number of LIBERO expert robot demos"""
 import os, glob, json, time, argparse
 os.environ["MUJOCO_GL"] = "egl"
 import numpy as np, torch, torch.nn as nn, torch.nn.functional as F, torchvision, h5py, imageio
