@@ -13,7 +13,7 @@ This project is a small version of that loop. I used my own phone, a bowl and a 
 
 *Left: one of my phone clips with the tracked hand. Middle: the same motion retargeted onto a Panda arm in LIBERO. Right: a policy trained on robot demonstrations retargeted from my phone clips (plus 9 extra clips aimed at its weak spots), picking up a bowl moved 5 cm from where it was in training.*
 
-> **Note on AI use.** I used generative AI, specifically Claude, to help me debug my code and find errors, and to help sort out the training clips and the training setup. The idea for the project is my own, and the README is my own writing, with an AI assistant used only for copy-editing.
+> **Note on AI use.** I used specifically Claude, to help me debug my code and find errors, and to help sort out the training clips and the training setup. The idea for the project is my own, and the README is my own writing.
 
 ## Summary of My Project
 
@@ -32,9 +32,9 @@ After adding these demonstrations, success near those positions increased from 1
 ## How it works
 
 ```
-phone video ──► MediaPipe hand landmarks ──► grab / release from thumb–index distance
-           ──► map the hand path onto the table (grab point → bowl, release point → plate)
-           ──► replay in LIBERO (records images + actions) ──► behaviour-cloning policy
+phone video -> MediaPipe hand landmarks -> grab / release from thumb–index distance
+           -> map the hand path onto the table (grab point-> bowl, release point-> plate)
+           -> replay in LIBERO (records images + actions) -> behaviour-cloning policy
 ```
 
 I picked up the bowl using my thumb and index finger, which is similar to how the robot uses its two-finger gripper. The program measures the distance between my thumb and index finger throughout the video. When that distance becomes small, it treats that as a grab, and when the distance becomes larger again, it treats that as letting go. This tells the robot when it should close and open its gripper.
