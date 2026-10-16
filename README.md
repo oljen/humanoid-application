@@ -11,7 +11,7 @@ This project is a small version of that loop. I used my own phone, a bowl and a 
 
 ![phone video → robot replay → trained policy](readme/hero.gif)
 
-*Left: one of my phone clips with the tracked hand. Middle: the same motion retargeted onto a Panda arm in LIBERO. Right: a policy trained on my clips (plus 9 extra clips aimed at its weak spots), picking up a bowl moved 5 cm from where it was in training.*
+*Left: one of my phone clips with the tracked hand. Middle: the same motion retargeted onto a Panda arm in LIBERO. Right: a policy trained on robot demonstrations retargeted from my phone clips (plus 9 extra clips aimed at its weak spots), picking up a bowl moved 5 cm from where it was in training.*
 
 ## Summary of My Project
 
@@ -167,7 +167,7 @@ These results are based on only three training runs for each approach, so they s
 
 - It drops steadily as I blur the clips, and drops before replays start failing
 - But within one blur level it can't tell which clips will fail (AUROC ≈ 0.55)
-- v2 (do the three views agree on *when* the grab and release happen?) was frozen before testing on a held-out motion-blur set. On that set: "was a grab/release detected at all?" 0.96, v2 0.83, my v1 0.77, MediaPipe's own score 0.72. On the 16/227 clips where a grab was found but the replay still failed, no score was reliably better than MediaPipe
+- v2 (do the three views agree on *when* the grab and release happen?) was frozen before testing on a held-out motion-blur set, and still lost to the simple "was a grab/release detected at all?" check (0.96 vs 0.83)
 
 Most of the bad phone clips failed in an obvious way. For example, sometimes the hand tracker could not properly detect the grab at all. Because of this, a simple yes or no check of whether the program found a grab and release at all was enough to catch most of the bad examples. More complicated ways of scoring the quality of the tracking did not seem to add much.
 
@@ -209,7 +209,7 @@ I used LIBERO because it was suggested in the challenge, and this task was a goo
 
 I used behaviour cloning rather than reinforcement learning or a larger vision-language-action model because I wanted something simple and fast to train. Each training run took around 25 minutes on my laptop GPU, which meant I could repeat the experiment many times with different random seeds. That turned out to be important because the results could vary by around 10 percentage points between runs. Reinforcement learning would have taken much longer, and because the behaviour cloning policy was already reaching around 90% success on the normal test layouts, there was not much room left for RL to improve the basic task.
 
-I also kept the training, validation and final test layouts separate. I originally saw that testing on layouts that had already been used during training could make the results look better than they really were. The validation layouts are used to decide which checkpoint to keep during training, while the final test layouts are left untouched until the end. So the final numbers come from layouts the policy has never seen.
+Training, validation and final test layouts are separate. I originally discovered that reusing training layouts inflated evaluation results, so I regenerated the final test set.
 
 For the targeted data experiment, I chose the target and control positions before recording any new phone clips. I could not move the positions later to suit the results. I also saved them to a file before filming, so they were fixed before I saw any new results.
 
