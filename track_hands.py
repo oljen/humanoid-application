@@ -1,5 +1,3 @@
-"""Run MediaPipe Hands on each clip. Saves per-frame landmarks, a plot,
-and optionally a video with the tracked hand drawn on top."""
 import sys, os, glob
 import numpy as np, cv2, mediapipe as mp
 import matplotlib; matplotlib.use("Agg")
