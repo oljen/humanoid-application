@@ -1,5 +1,3 @@
-"""Hover above the bowl's grip spot, go straight down, close, lift.
-Tries a few heights and reports which ones actually pick the bowl up."""
 import os
 os.environ["MUJOCO_GL"] = "egl"
 import numpy as np
