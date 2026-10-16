@@ -92,7 +92,7 @@ These results are basically equal. The difference between 91% and 92% is smaller
 
 The individual runs also varied quite a bit depending on the training seed. Some phone-trained policies performed better than some expert-trained ones, and some performed worse. Looking at the averages across all 8 seeds gives a much more reliable comparison than focusing on a single run.
 
-These test layouts are still close to the original training setup. The objects are only moved by a few centimetres, so this result shows that the phone-derived demonstrations work about as well as the LIBERO demonstrations under small changes to the scene. It does not mean they will generalise equally well to much larger changes.
+These test layouts are still quite close to the original training setup. The objects are only moved by a few centimetres, so this result shows that the phone-derived demonstrations work about as well as the LIBERO demonstrations under small changes to the scene. It does not mean they will generalise equally well to much larger changes.
 
 ---
 
@@ -120,9 +120,9 @@ The phone-trained policy seemed to break down slightly sooner. Away from the cen
 
 I also tested whether disagreement between 7 independently trained policies could be used as a warning that the robot was likely to fail. This worked quite well for the phone-trained policies, with an AUROC of 0.80. Higher disagreement during the first few movements was associated with failure.
 
-The same warning signal did not work well for the policies trained on the LIBERO expert demonstrations, where the AUROC was only 0.44. Disagreement was useful for identifying weak areas in the phone-trained policy, but the same relationship was not present in the expert-trained policy.
+The same warning signal did not work well for the policies trained on the LIBERO expert demonstrations, where the AUROC was only 0.44. Disagreement therefore worked as a useful warning signal for the phone-trained policy, but not for the expert-trained one.
 
-This is a small sample: 70 trials per policy, with only 11 successes for the phone-trained policy. So the results are useful evidence, but they are not enough to make a strong general claim.
+The sample is small: 70 trials per policy, with only 11 successes for the phone-trained policy. So the results are useful evidence, but they are not enough to make a strong general claim.
 
 ---
 
@@ -179,7 +179,7 @@ I tried weighting the training loss using the confidence of the hand tracking, s
 
 I also ran several control experiments with 3 seeds each. Simply duplicating good demonstrations achieved 85% success. Nudging the robot off course during replay, but recording the correct corrective actions, achieved 89%. Recording the nudged actions themselves instead achieved 92%. None of these differences were large enough to stand out from the normal variation between runs.
 
-The biggest surprise was how much performance moved between seeds. With only around 40 demonstrations, success could vary by roughly 10 percentage points between runs. This meant that results based on only 3 seeds could look convincing at first but disappear when I tested more seeds, so I started using more runs before drawing conclusions.
+The biggest surprise was how much performance changed between random seeds. With only around 40 demonstrations, success could vary by roughly 10 percentage points between runs. This meant that results based on only 3 seeds could look convincing at first but disappear when I tested more seeds, so I started using more runs before drawing conclusions.
 
 ---
 
