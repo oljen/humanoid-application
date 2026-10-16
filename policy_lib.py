@@ -1,4 +1,3 @@
-"""Shared helpers: load trained policies, set up LIBERO, move the bowl, run a policy."""
 import os
 os.environ.setdefault("MUJOCO_GL", "egl")
 import numpy as np, torch, torch.nn as nn, torchvision
