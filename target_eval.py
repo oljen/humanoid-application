@@ -1,6 +1,3 @@
-"""Test policies NEAR the target spots and NEAR the control spots.
-Held out: each test position is 1.5 cm diagonally off a chosen spot, never used for training data.
-Usage: python target_eval.py <variant> <seeds, e.g. 1,2,3>"""
 import os, sys, json
 import numpy as np
 from policy_lib import *
