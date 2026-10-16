@@ -1,7 +1,3 @@
-"""Harder test: move the bowl up to +-10 cm from its usual spot and see where policies fail.
-Also records whether the policies trained on the same data with different seeds disagree
-on what to do. No training here, just running them.
-Usage: python hard_eval.py uniform|expert [--quick]"""
 import os, sys, json
 os.environ["MUJOCO_GL"] = "egl"
 import numpy as np, torch, torch.nn as nn, torchvision, imageio
