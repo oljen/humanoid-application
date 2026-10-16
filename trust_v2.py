@@ -1,12 +1,3 @@
-"""Trust score v2 -- written BEFORE looking at any motion-blur results.
-Question: do the original, mirrored and zoomed views agree on WHEN and WHERE the grab
-and the release happen?  (v1 only checked where the hand is, frame by frame.)
-  place_error  = mean distance (hand sizes) between each extra view's grab/release point
-                 and the original view's grab/release point
-  timing_error = largest gap (seconds) between a view's grab/release time and the original's
-  v2 = exp(-place_error / 0.25) * exp(-timing_error / 0.5);  v2 = 0 if any view finds no grab/release
-  combined = v1 * v2
-The scales 0.25 / 0.5 are fixed here; AUROC does not depend on them anyway."""
 import json, numpy as np
 
 ASPECT = 1920 / 1080
