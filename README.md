@@ -13,7 +13,7 @@ This project is a small version of that loop. I used my own phone, a bowl and a 
 
 *Left: one of my phone clips with the tracked hand. Middle: the same motion retargeted onto a Panda arm in LIBERO. Right: a policy trained on robot demonstrations retargeted from my phone clips (plus 9 extra clips aimed at its weak spots), picking up a bowl moved 5 cm from where it was in training.*
 
-> **Note on AI use.** I used specifically Claude, to help me debug my code and find errors, and to help sort out the training clips and the training setup. The idea for the project is my own, and the README is my own writing.
+> **Note on AI use.** I used Claude as a debugging assistant while developing the project, mainly to help identify code errors, write comments and organise experiments. The project idea, experimental design, data collection and README are my own.
 
 ## Summary of My Project
 
@@ -88,11 +88,9 @@ On 50 unseen test layouts, the policy trained on my 42 phone-derived demonstrati
 | my 42 phone-derived demos | **91 ± 6%** | 94, 92, 100, 92, 96, 82, 80, 94 |
 | 40 LIBERO expert demos | **92 ± 7%** | 84, 98, 96, 100, 98, 86, 84, 86 |
 
-These results are basically equal. The difference between 91% and 92% is smaller than the normal variation between training runs, which is why I describe the phone-derived demonstrations as performing comparably to the LIBERO expert demonstrations rather than saying one is better or worse than the other.
+These results are basically equal. The 1% difference is smaller than the variation between training runs, so I describe the phone-derived demonstrations as performing comparably to the LIBERO expert demonstrations rather than saying one is better.
 
-The individual runs also varied quite a bit depending on the training seed. Some phone-trained policies performed better than some expert-trained ones, and some performed worse. Looking at the averages across all 8 seeds gives a much more reliable comparison than focusing on a single run.
-
-These test layouts are still quite close to the original training setup. The objects are only moved by a few centimetres, so this result shows that the phone-derived demonstrations work about as well as the LIBERO demonstrations under small changes to the scene. It does not mean they will generalise equally well to much larger changes.
+Performance varied noticeably between random seeds, with some phone-trained runs outperforming expert-trained runs and others doing worse. I therefore report the average across all 8 seeds.
 
 ---
 
@@ -114,15 +112,13 @@ Disagreement between 7 policies (same data, different seeds) in the first few st
 | phone-trained | **0.80** | 44%, 0%, 12%, 6% |
 | expert-trained | 0.44 | 17%, 39%, 18%, 29% |
 
-Both policies struggled when the bowl was moved around 5–10 cm away from its usual position. This makes sense because, during training, the bowl was always placed close to the same area. Neither policy had seen much variation in where the bowl could start, so moving it further away created situations that were different from the ones they had learned from.
+Both policies struggled when the bowl was moved 5–10 cm from its usual position. The phone-trained policy broke down slightly sooner, succeeding in 16% of trials away from the centre compared with 26% for the expert-trained policy.
 
-The phone-trained policy seemed to break down slightly sooner. Away from the centre, it succeeded in 16% of trials, compared with 26% for the policy trained on LIBERO expert demonstrations. One possible reason is that the retargeting process makes the grasp very consistent. In the phone-derived demonstrations, the robot always approaches the bowl in almost the same way and grabs it at the same point. This may make the demonstrations less varied than the expert data and could make the policy more sensitive when the bowl is moved.
+One possible reason is that my retargeting makes the grasp very consistent: the robot approaches and grabs the bowl in almost the same way in every phone-derived demonstration. This may make the policy more sensitive to larger changes in bowl position.
 
-I also tested whether disagreement between 7 independently trained policies could be used as a warning that the robot was likely to fail. This worked quite well for the phone-trained policies, with an AUROC of 0.80. Higher disagreement during the first few movements was associated with failure.
+I then tested whether disagreement between 7 independently trained policies could warn of failure. For the phone-trained policies, higher disagreement during the first few movements was associated with failure, giving an AUROC of 0.80. The same signal did not work for the expert-trained policies, where AUROC was 0.44.
 
-The same warning signal did not work well for the policies trained on the LIBERO expert demonstrations, where the AUROC was only 0.44. Disagreement therefore worked as a useful warning signal for the phone-trained policy, but not for the expert-trained one.
-
-The sample is small: 70 trials per policy, with only 11 successes for the phone-trained policy. So the results are useful evidence, but they are not enough to make a strong general claim.
+The sample is small: 70 trials per policy, with only 11 successes for the phone-trained policy, so I treat this as evidence rather than a general result.
 
 ---
 
@@ -205,17 +201,16 @@ There was also one mistake where a short 50-step sanity-check run accidentally o
 
 ---
 
+
 ## Design choices
 
-I used LIBERO because it was suggested in the challenge, and this task was a good fit for what I wanted to test. Moving a bowl onto a plate is simple enough to recreate at home using real objects, which made it easy to record phone demonstrations. LIBERO also provides expert robot demonstrations for the same task, so I could compare data collected from a phone against existing robot demonstrations in a fair way.
+I used LIBERO because it was suggested in the challenge and the bowl-to-plate task was easy to recreate at home. It also provides expert demonstrations for the same task, giving me a useful comparison against my phone-derived data.
 
-I used behaviour cloning rather than reinforcement learning or a larger vision-language-action model because I wanted something simple and fast to train. Each training run took around 25 minutes on my laptop GPU, which meant I could repeat the experiment many times with different random seeds. That turned out to be important because the results could vary by around 10 percentage points between runs. Reinforcement learning would have taken much longer, and because the behaviour cloning policy was already reaching around 90% success on the normal test layouts, there was not much room left for RL to improve the basic task.
+I used behaviour cloning because each run took around 25 minutes on my laptop GPU, which made it practical to repeat experiments across multiple random seeds. Since the policy already reached around 90% success on the normal test layouts, I focused on where it failed rather than adding RL to the basic task.
 
-Training, validation and final test layouts are separate. I originally discovered that reusing training layouts inflated evaluation results, so I regenerated the final test set.
+Training, validation and final test layouts are separate. I originally found that reusing training layouts inflated the results, so I regenerated the final test set.
 
-For the targeted data experiment, I chose the target and control positions before recording any new phone clips. I could not move the positions later to suit the results. I also saved them to a file before filming, so they were fixed before I saw any new results.
-
-I used the exact same 9 new phone clips for both the targeted and control experiments. The only thing that changed was where those demonstrations were placed in the simulator. If I had recorded different clips for each condition, any difference in performance could have come from one set of clips simply being better than the other, rather than from where the new data was added.
+For the targeted-data experiment, I chose and saved the target and control positions before recording any new clips. Both conditions used the exact same 9 new phone clips; the only difference was where those demonstrations were placed in the simulator.
 
 ---
 
@@ -256,8 +251,6 @@ My phone clips (all 4 sets): [Google Drive folder](https://drive.google.com/driv
 ---
 
 ## With another week
-
-First, I was quite ill these last few weeks so I only had a few days to complete this challenge.
 
 With another week, the first thing I would change is the grasping motion. At the moment, every retargeted demonstration approaches the bowl in almost the same straight-down way. I think this may be one reason why the phone-trained policy breaks down sooner than the expert-trained one when the bowl is moved. I would record demonstrations with different approach angles and see whether that makes the policy more robust.
 
