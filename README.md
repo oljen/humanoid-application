@@ -90,7 +90,7 @@ These results are basically equal. The difference between 91% and 92% is smaller
 
 The individual runs also varied quite a bit depending on the training seed. Some phone-trained policies performed better than some expert-trained ones, and some performed worse. Looking at the averages across all 8 seeds gives a much more reliable comparison than focusing on a single run.
 
-It is also important to point out that these test layouts are still quite close to the original training setup. The objects are only moved by a few centimetres, so this result shows that the phone-derived demonstrations work about as well as the LIBERO demonstrations under small changes to the scene. It does not mean they will generalise equally well to much larger changes.
+These test layouts are still close to the original training setup. The objects are only moved by a few centimetres, so this result shows that the phone-derived demonstrations work about as well as the LIBERO demonstrations under small changes to the scene. It does not mean they will generalise equally well to much larger changes.
 
 ---
 
@@ -116,11 +116,11 @@ Both policies struggled when the bowl was moved around 5–10 cm away from its u
 
 The phone-trained policy seemed to break down slightly sooner. Away from the centre, it succeeded in 16% of trials, compared with 26% for the policy trained on LIBERO expert demonstrations. One possible reason is that the retargeting process makes the grasp very consistent. In the phone-derived demonstrations, the robot always approaches the bowl in almost the same way and grabs it at the same point. This may make the demonstrations less varied than the expert data and could make the policy more sensitive when the bowl is moved.
 
-I also tested whether disagreement between 7 independently trained policies could be used as a warning that the robot was likely to fail. This worked quite well for the phone-trained policies, with an AUROC of 0.80. In other words, when the policies disagreed more during the first few movements, failure was more likely.
+I also tested whether disagreement between 7 independently trained policies could be used as a warning that the robot was likely to fail. This worked quite well for the phone-trained policies, with an AUROC of 0.80. Higher disagreement during the first few movements was associated with failure.
 
-The same warning signal did not work well for the policies trained on the LIBERO expert demonstrations, where the AUROC was only 0.44. This suggests that disagreement was useful for identifying weak areas in the phone-trained policy, but the same relationship was not present in the expert-trained policy.
+The same warning signal did not work well for the policies trained on the LIBERO expert demonstrations, where the AUROC was only 0.44. Disagreement was useful for identifying weak areas in the phone-trained policy, but the same relationship was not present in the expert-trained policy.
 
-These results should still be treated carefully because the sample is small. There were only 70 trials per policy, and the phone-trained policy succeeded in just 11 of them. So the results are useful evidence, but they are not enough to make a strong general claim.
+This is a small sample: 70 trials per policy, with only 11 successes for the phone-trained policy. So the results are useful evidence, but they are not enough to make a strong general claim.
 
 ---
 
@@ -153,7 +153,7 @@ I tested the policies at positions 1.5 cm away from each of the chosen locations
 
 Overall, the two approaches ended up performing about the same. The main benefit of targeting the high-disagreement positions was that it improved the specific areas where the original policy was weakest, rather than improving performance everywhere.
 
-The policy that received the new demonstrations at random control positions also improved around the target positions, going from 14% success to 47%. This suggests that some of the improvement simply came from adding more demonstrations. However, placing the demonstrations specifically around the high-disagreement areas improved success there further.
+The policy that received the new demonstrations at random control positions also improved around the target positions, going from 14% success to 47%. Some of the gain therefore came from adding more demonstrations, but targeting the high-disagreement areas gave a larger improvement there.
 
 These results are based on only three training runs for each approach, so they should not be treated as conclusive. On the normal test distribution, the targeted policies achieved 87% success compared with 95% for the control policies.
 
@@ -177,7 +177,7 @@ I tried weighting the training loss using the confidence of the hand tracking, s
 
 I also ran several control experiments with 3 seeds each. Simply duplicating good demonstrations achieved 85% success. Nudging the robot off course during replay, but recording the correct corrective actions, achieved 89%. Recording the nudged actions themselves instead achieved 92%. None of these differences were large enough to stand out from the normal variation between runs.
 
-One of the main things I learned from these experiments was how much the result can change just from training the same policy again with a different random seed. With only around 40 demonstrations, success could vary by roughly 10 percentage points between runs. This meant that results based on only 3 seeds could look convincing at first but disappear when I tested more seeds, so I started using more runs before drawing conclusions.
+The biggest surprise was how much performance moved between seeds. With only around 40 demonstrations, success could vary by roughly 10 percentage points between runs. This meant that results based on only 3 seeds could look convincing at first but disappear when I tested more seeds, so I started using more runs before drawing conclusions.
 
 ---
 
@@ -209,11 +209,11 @@ I used LIBERO because it was suggested in the challenge, and this task was a goo
 
 I used behaviour cloning rather than reinforcement learning or a larger vision-language-action model because I wanted something simple and fast to train. Each training run took around 25 minutes on my laptop GPU, which meant I could repeat the experiment many times with different random seeds. That turned out to be important because the results could vary by around 10 percentage points between runs. Reinforcement learning would have taken much longer, and because the behaviour cloning policy was already reaching around 90% success on the normal test layouts, there was not much room left for RL to improve the basic task.
 
-I also kept the training, validation and final test layouts separate. I originally saw that testing on layouts that had already been used during training could make the results look better than they really were. The validation layouts are used to decide which checkpoint to keep during training, while the final test layouts are left untouched until the end. This gives a fairer measure of how well the policy works on layouts it has not seen before.
+I also kept the training, validation and final test layouts separate. I originally saw that testing on layouts that had already been used during training could make the results look better than they really were. The validation layouts are used to decide which checkpoint to keep during training, while the final test layouts are left untouched until the end. So the final numbers come from layouts the policy has never seen.
 
-For the targeted data experiment, I chose the target and control positions before recording any new phone clips. This meant I could not change the positions later after seeing the results. I also saved them to a file before filming, so they were fixed before I saw any new results.
+For the targeted data experiment, I chose the target and control positions before recording any new phone clips. I could not move the positions later to suit the results. I also saved them to a file before filming, so they were fixed before I saw any new results.
 
-I used the exact same 9 new phone clips for both the targeted and control experiments. The only thing that changed was where those demonstrations were placed in the simulator. This was important because if I had recorded different clips for each condition, any difference in performance could have come from one set of clips simply being better than the other, rather than from where the new data was added.
+I used the exact same 9 new phone clips for both the targeted and control experiments. The only thing that changed was where those demonstrations were placed in the simulator. If I had recorded different clips for each condition, any difference in performance could have come from one set of clips simply being better than the other, rather than from where the new data was added.
 
 ---
 
@@ -257,10 +257,10 @@ My phone clips (all 4 sets): [Google Drive folder](https://drive.google.com/driv
 
 With another week, the first thing I would change is the grasping motion. At the moment, every retargeted demonstration approaches the bowl in almost the same straight-down way. I think this may be one reason why the phone-trained policy breaks down sooner than the expert-trained one when the bowl is moved. I would record demonstrations with different approach angles and see whether that makes the policy more robust.
 
-I would also run more rounds of the same data collection loop. The idea would be to find the positions where the policies disagree most, record new demonstrations there, retrain the policies, and then repeat the process. I would also use more training seeds at each stage so the results are less affected by random variation between runs.
+Next, more rounds of the same data collection loop. The idea would be to find the positions where the policies disagree most, record new demonstrations there, retrain the policies, and then repeat the process. I would also use more training seeds at each stage so the results are less affected by random variation between runs.
 
-Another thing I would try is recording from a first-person view using a chest-mounted phone. This would be closer to the viewpoint a humanoid robot might have. It would also be a useful test of whether the same retargeting method still works when the camera itself is moving.
+I would also try recording from a first-person view using a chest-mounted phone. This would be closer to the viewpoint a humanoid robot might have. It would also be a useful test of whether the same retargeting method still works when the camera itself is moving.
 
-Finally, I would test the same idea with larger models, such as a vision-language-action model or a world model. I would be interested to see whether comparing several independently trained versions of a larger model could still help identify the situations where the robot is most uncertain about what to do.
+The last thing I would test is the same idea with larger models, such as a vision-language-action model or a world model. I would be interested to see whether comparing several independently trained versions of a larger model could still help identify the situations where the robot is most uncertain about what to do.
 
 My MSc project looks at a robot controller that needs to know when its own position estimate is unreliable. This challenge made me think about a similar question from the data side: when should a robot trust what it has learned from human video, and when should it recognise that it needs more examples?
