@@ -1,4 +1,3 @@
-"""Held-out test set: motion-blurred copies of every good clip (one random direction per clip)."""
 import cv2, glob, os, numpy as np
 LEVELS = {"motion25": 25, "motion40": 40, "motion60": 60}
 rng = np.random.default_rng(1)
