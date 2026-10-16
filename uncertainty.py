@@ -1,5 +1,3 @@
-"""Tracking confidence v1, and saves the mirrored / zoomed views' full hand landmarks (used by v2).
-v1 per frame: disagreement of the pinch point between original, mirrored and zoomed views, plus jitter."""
 import glob, os, json
 import numpy as np, cv2, mediapipe as mp
 import matplotlib; matplotlib.use("Agg")
