@@ -17,11 +17,11 @@ This project is a small version of that loop. I used my own phone, a bowl and a 
 
 I recorded 54 short phone clips of my hand performing the task. These were converted into 42 robot demonstrations, and 40 of them replayed successfully in LIBERO.
 
-I then trained a policy using those demonstrations. Across 50 unseen layouts and 8 random seeds, the policy achieved a success rate of 91 ± 6%. For comparison, the same policy trained on 40 expert demonstrations from LIBERO achieved 92 ± 7%, so the demonstrations collected from phone videos performed about as well as the original expert data.
+I then trained a policy using those demonstrations. Across 50 unseen layouts and 8 random seeds, the policy achieved a success rate of 91 ± 6%. For comparison, the same policy trained on 40 expert demonstrations from LIBERO achieved 92 ± 7%.
 
-However, when I moved the bowl by around 5–10 cm, both policies started to fail much more often. For the policy trained using the phone demonstrations, I trained 7 separate copies of the policy and compared their predictions during the first few moves. When the policies disagreed with each other, this was a useful sign that the robot was likely to fail, with an AUROC of 0.80.
+However, when I moved the bowl by around 5–10 cm, both policies started to fail much more often. For the phone-trained policy, I trained 7 separate copies and compared their predictions during the first few moves. When the policies disagreed with each other, this was a useful sign that the robot was likely to fail, with an AUROC of 0.80.
 
-I then used this disagreement to decide where to collect more data. I recorded 12 more phone clips with the bowl in different spots, moving it in four directions at home. The 9 clips that worked were then placed by the program in the simulator at the three positions where the policies disagreed the most.
+I then used this disagreement to decide where to collect more data. I recorded 12 more phone clips with the bowl moved in four directions at home. The 9 clips that worked were then placed by the program in the simulator at the three positions where the policies disagreed the most.
 
 After adding these demonstrations, success near those positions increased from 14% to 68%, with 45 successful runs out of 66. As a comparison, when the same 9 clips were placed at other positions instead, success near the flagged positions only reached 47%, or 31 successful runs out of 66.
 
