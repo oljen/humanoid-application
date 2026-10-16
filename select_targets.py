@@ -1,6 +1,3 @@
-"""Pick where to add data, BEFORE collecting it.
-For the 8 bowl positions 5-7 cm from the centre: how much do the 7 phone-trained policies disagree
-on their first action, before moving? Top 3 = targets; 3 random others at the same distance = controls."""
 import json, numpy as np
 from policy_lib import *
 
