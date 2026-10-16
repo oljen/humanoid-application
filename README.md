@@ -45,7 +45,7 @@ I also tracked the point between my thumb and index finger rather than my wrist.
 
 The robot then replays the converted movement inside the simulator. During this replay, the simulator records what the robot's cameras see and the actions taken by the arm and gripper. These recorded demonstrations are then used as the training data for the policy.
 
-**What comes from my video vs what is scripted** (keep this near the top):
+**What comes from my video vs what is scripted**:
 
 | From my video | Scripted / from the simulator |
 |---|---|
@@ -130,7 +130,7 @@ These results should still be treated carefully because the sample is small. The
 
 I measured how much the 7 phone-trained policies disagreed with each other on the first frame at 8 different bowl positions, each around 5–7 cm away from the centre.
 
-I picked the three positions with the highest disagreement as the target positions. I also randomly selected three other positions at the same distance to use as controls. I saved and committed these choices before recording any new data, so the positions could not be changed based on the results later.
+I picked the three positions with the highest disagreement as the target positions. I also randomly selected three other positions at the same distance to use as controls. I saved these choices (results/targets.json) before recording any new data, so the positions could not be changed based on the results later.
 
 I then recorded 12 new phone clips with the bowl moved by around 5 cm in four different directions, while also varying how I reached for it. Nine of these clips replayed successfully in the simulator.
 
@@ -138,7 +138,7 @@ I trained two sets of policies using the same random seeds, with three runs for 
 
 I tested the policies at positions 1.5 cm away from each of the chosen locations, so none of the exact test positions had been used for training. Each policy improved the most around the areas where its new training data had been placed.
 
-Show Image
+![same layout, before and after the 9 targeted clips](readme/before_after.gif)
 
 ![targeted vs random extra data](readme/targeted_result.png)
 
@@ -170,9 +170,13 @@ These results are based on only three training runs for each approach, so they s
 - v2 (do the three views agree on *when* the grab and release happen?) was frozen before testing on a held-out motion-blur set. On that set: "was a grab/release detected at all?" 0.96, v2 0.83, my v1 0.77, MediaPipe's own score 0.72. On the 16/227 clips where a grab was found but the replay still failed, no score was reliably better than MediaPipe
 
 Most of the bad phone clips failed in an obvious way. For example, sometimes the hand tracker could not properly detect the grab at all. Because of this, a simple yes or no check of whether the program found a grab and release at all was enough to catch most of the bad examples. More complicated ways of scoring the quality of the tracking did not seem to add much.
+
 I also tested whether keeping failed demonstrations could actually help the policy learn. With only 3 training seeds, keeping the two failed replays initially looked much better, with 95% success compared with 80% when they were removed. However, after increasing the experiment to 8 seeds, the difference became much smaller: 91% compared with 87%. That difference was within the normal variation between training runs, so I dropped the claim that failed demonstrations were helpful.
+
 I tried weighting the training loss using the confidence of the hand tracking, so demonstrations with more reliable tracking would have more influence during training. This achieved 85 ± 8% success, compared with 91 ± 6% without the weighting, so it did not improve performance.
+
 I also ran several control experiments with 3 seeds each. Simply duplicating good demonstrations achieved 85% success. Nudging the robot off course during replay, but recording the correct corrective actions, achieved 89%. Recording the nudged actions themselves instead achieved 92%. None of these differences were large enough to stand out from the normal variation between runs.
+
 One of the main things I learned from these experiments was how much the result can change just from training the same policy again with a different random seed. With only around 40 demonstrations, success could vary by roughly 10 percentage points between runs. This meant that results based on only 3 seeds could look convincing at first but disappear when I tested more seeds, so I started using more runs before drawing conclusions.
 
 ---
@@ -186,6 +190,7 @@ I also found that training for too long caused the policy to memorise the traini
 I also noticed that the policy would slowly twist the gripper while it was running. My phone demonstrations never included any gripper rotation, but small prediction errors could build up over time and cause the gripper to rotate anyway. For the phone-trained policies, I therefore lock the rotation to zero when running them. This keeps the robot closer to the type of movement it actually saw in the demonstrations.
 
 There was also one mistake where a short 50-step sanity-check run accidentally overwrote the saved model for uniform seed 0, `uniform_s0.pt`. Because of this, the later moved-bowl experiment only uses seeds 1–7. The earlier 91% result is still valid because it was measured before that model file was overwritten.
+
 ---
 
 ## Limitations
@@ -206,9 +211,10 @@ I used behaviour cloning rather than reinforcement learning or a larger vision-l
 
 I also kept the training, validation and final test layouts separate. I originally saw that testing on layouts that had already been used during training could make the results look better than they really were. The validation layouts are used to decide which checkpoint to keep during training, while the final test layouts are left untouched until the end. This gives a fairer measure of how well the policy works on layouts it has not seen before.
 
-For the targeted data experiment, I chose the target and control positions before recording any new phone clips. This meant I could not change the positions later after seeing the results. I also committed those choices to GitHub before filming, which gives a clear record of when they were selected.
+For the targeted data experiment, I chose the target and control positions before recording any new phone clips. This meant I could not change the positions later after seeing the results. I also saved them to a file before filming, so they were fixed before I saw any new results.
 
 I used the exact same 9 new phone clips for both the targeted and control experiments. The only thing that changed was where those demonstrations were placed in the simulator. This was important because if I had recorded different clips for each condition, any difference in performance could have come from one set of clips simply being better than the other, rather than from where the new data was added.
+
 ---
 
 ## How to run
