@@ -201,7 +201,7 @@ There was also one mistake where a short 50-step sanity-check run accidentally o
 - Test layouts move objects only a few cm; policies fail beyond ~5 cm
 - Parts of the motion are scripted (see table above), and one grasp-offset constant comes from expert demos
 - Retargeting can't detect a dropped bowl
-- 3 seeds for Result 3; 4 episodes per square in the heatmap
+- 3 seeds for Result 3, 4 episodes per square in the heatmap
 
 ---
 
@@ -256,6 +256,8 @@ My phone clips (all 4 sets): [Google Drive folder](https://drive.google.com/driv
 ---
 
 ## With another week
+
+First, I was quite ill these last few weeks so I only had a few days to complete this challenge.
 
 With another week, the first thing I would change is the grasping motion. At the moment, every retargeted demonstration approaches the bowl in almost the same straight-down way. I think this may be one reason why the phone-trained policy breaks down sooner than the expert-trained one when the bowl is moved. I would record demonstrations with different approach angles and see whether that makes the policy more robust.
 
