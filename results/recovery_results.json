@@ -1,0 +1,37 @@
+{
+ "good_IMG_0790": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 212,
+  "bowl_lift": 0.103
+ },
+ "good_IMG_0795": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 224,
+  "bowl_lift": 0.11
+ },
+ "good_IMG_0800": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 184,
+  "bowl_lift": 0.109
+ },
+ "good_IMG_0805": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 183,
+  "bowl_lift": 0.108
+ },
+ "good_IMG_0810": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 200,
+  "bowl_lift": 0.108
+ }
+}

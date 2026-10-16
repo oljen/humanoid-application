@@ -1,0 +1,356 @@
+{
+ "fail_IMG_0835": {
+  "group": "fail",
+  "events": false,
+  "success": false
+ },
+ "fail_IMG_0836": {
+  "group": "fail",
+  "events": false,
+  "success": false
+ },
+ "fail_IMG_0837": {
+  "group": "fail",
+  "events": false,
+  "success": false
+ },
+ "fail_IMG_0838": {
+  "group": "fail",
+  "events": true,
+  "success": true,
+  "steps": 125,
+  "bowl_lift": 0.097
+ },
+ "fail_IMG_0839": {
+  "group": "fail",
+  "events": true,
+  "success": true,
+  "steps": 195,
+  "bowl_lift": 0.1
+ },
+ "good_IMG_0786": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 259,
+  "bowl_lift": 0.1
+ },
+ "good_IMG_0787": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 209,
+  "bowl_lift": 0.099
+ },
+ "good_IMG_0788": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 212,
+  "bowl_lift": 0.099
+ },
+ "good_IMG_0789": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 218,
+  "bowl_lift": 0.099
+ },
+ "good_IMG_0790": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 210,
+  "bowl_lift": 0.099
+ },
+ "good_IMG_0791": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 216,
+  "bowl_lift": 0.099
+ },
+ "good_IMG_0792": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 167,
+  "bowl_lift": 0.099
+ },
+ "good_IMG_0793": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 165,
+  "bowl_lift": 0.099
+ },
+ "good_IMG_0794": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 145,
+  "bowl_lift": 0.098
+ },
+ "good_IMG_0795": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 224,
+  "bowl_lift": 0.099
+ },
+ "good_IMG_0796": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 175,
+  "bowl_lift": 0.098
+ },
+ "good_IMG_0797": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 149,
+  "bowl_lift": 0.098
+ },
+ "good_IMG_0798": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 127,
+  "bowl_lift": 0.098
+ },
+ "good_IMG_0799": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 222,
+  "bowl_lift": 0.099
+ },
+ "good_IMG_0800": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 156,
+  "bowl_lift": 0.092
+ },
+ "good_IMG_0801": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 214,
+  "bowl_lift": 0.099
+ },
+ "good_IMG_0802": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 188,
+  "bowl_lift": 0.098
+ },
+ "good_IMG_0803": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 203,
+  "bowl_lift": 0.099
+ },
+ "good_IMG_0804": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 220,
+  "bowl_lift": 0.099
+ },
+ "good_IMG_0805": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 181,
+  "bowl_lift": 0.099
+ },
+ "good_IMG_0806": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 178,
+  "bowl_lift": 0.098
+ },
+ "good_IMG_0807": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 231,
+  "bowl_lift": 0.099
+ },
+ "good_IMG_0808": {
+  "group": "good",
+  "events": true,
+  "success": false,
+  "steps": 534,
+  "bowl_lift": 0.0
+ },
+ "good_IMG_0809": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 196,
+  "bowl_lift": 0.099
+ },
+ "good_IMG_0810": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 201,
+  "bowl_lift": 0.097
+ },
+ "good_IMG_0811": {
+  "group": "good",
+  "events": false,
+  "success": false
+ },
+ "good_IMG_0812": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 252,
+  "bowl_lift": 0.098
+ },
+ "good_IMG_0813": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 201,
+  "bowl_lift": 0.097
+ },
+ "good_IMG_0814": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 201,
+  "bowl_lift": 0.098
+ },
+ "good_IMG_0815": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 257,
+  "bowl_lift": 0.099
+ },
+ "good_IMG_0816": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 178,
+  "bowl_lift": 0.097
+ },
+ "good_IMG_0817": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 202,
+  "bowl_lift": 0.098
+ },
+ "good_IMG_0818": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 186,
+  "bowl_lift": 0.097
+ },
+ "good_IMG_0819": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 179,
+  "bowl_lift": 0.099
+ },
+ "good_IMG_0820": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 155,
+  "bowl_lift": 0.092
+ },
+ "good_IMG_0821": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 202,
+  "bowl_lift": 0.099
+ },
+ "good_IMG_0822": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 188,
+  "bowl_lift": 0.1
+ },
+ "good_IMG_0823": {
+  "group": "good",
+  "events": false,
+  "success": false
+ },
+ "good_IMG_0824": {
+  "group": "good",
+  "events": true,
+  "success": true,
+  "steps": 189,
+  "bowl_lift": 0.098
+ },
+ "hard_IMG_0825": {
+  "group": "hard",
+  "events": true,
+  "success": false,
+  "steps": 409,
+  "bowl_lift": 0.0
+ },
+ "hard_IMG_0826": {
+  "group": "hard",
+  "events": false,
+  "success": false
+ },
+ "hard_IMG_0827": {
+  "group": "hard",
+  "events": true,
+  "success": true,
+  "steps": 110,
+  "bowl_lift": 0.083
+ },
+ "hard_IMG_0828": {
+  "group": "hard",
+  "events": false,
+  "success": false
+ },
+ "hard_IMG_0829": {
+  "group": "hard",
+  "events": false,
+  "success": false
+ },
+ "hard_IMG_0830": {
+  "group": "hard",
+  "events": true,
+  "success": true,
+  "steps": 123,
+  "bowl_lift": 0.075
+ },
+ "hard_IMG_0831": {
+  "group": "hard",
+  "events": false,
+  "success": false
+ },
+ "hard_IMG_0832": {
+  "group": "hard",
+  "events": false,
+  "success": false
+ },
+ "hard_IMG_0833": {
+  "group": "hard",
+  "events": false,
+  "success": false
+ },
+ "hard_IMG_0834": {
+  "group": "hard",
+  "events": false,
+  "success": false
+ }
+}

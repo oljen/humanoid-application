@@ -1,0 +1,86 @@
+{
+ "new_IMG_0873": {
+  "group": "new",
+  "events": true,
+  "success": true,
+  "steps": 326,
+  "bowl_lift": 0.098
+ },
+ "new_IMG_0874": {
+  "group": "new",
+  "events": true,
+  "success": false,
+  "steps": 456,
+  "bowl_lift": 0.0
+ },
+ "new_IMG_0876": {
+  "group": "new",
+  "events": true,
+  "success": true,
+  "steps": 263,
+  "bowl_lift": 0.098
+ },
+ "new_IMG_0877": {
+  "group": "new",
+  "events": true,
+  "success": true,
+  "steps": 348,
+  "bowl_lift": 0.097
+ },
+ "new_IMG_0878": {
+  "group": "new",
+  "events": true,
+  "success": false,
+  "steps": 495,
+  "bowl_lift": 0.0
+ },
+ "new_IMG_0880": {
+  "group": "new",
+  "events": true,
+  "success": true,
+  "steps": 259,
+  "bowl_lift": 0.098
+ },
+ "new_IMG_0881": {
+  "group": "new",
+  "events": true,
+  "success": true,
+  "steps": 315,
+  "bowl_lift": 0.097
+ },
+ "new_IMG_0882": {
+  "group": "new",
+  "events": true,
+  "success": true,
+  "steps": 348,
+  "bowl_lift": 0.086
+ },
+ "new_IMG_0883": {
+  "group": "new",
+  "events": true,
+  "success": true,
+  "steps": 154,
+  "bowl_lift": 0.11
+ },
+ "new_IMG_0884": {
+  "group": "new",
+  "events": true,
+  "success": false,
+  "steps": 476,
+  "bowl_lift": 0.0
+ },
+ "new_IMG_0885": {
+  "group": "new",
+  "events": true,
+  "success": true,
+  "steps": 258,
+  "bowl_lift": 0.095
+ },
+ "new_IMG_0890": {
+  "group": "new",
+  "events": true,
+  "success": true,
+  "steps": 319,
+  "bowl_lift": 0.098
+ }
+}

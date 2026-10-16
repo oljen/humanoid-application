@@ -1,0 +1,5216 @@
+{
+ "fail_IMG_0835": {
+  "group": "fail",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.946,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "fail_IMG_0836": {
+  "group": "fail",
+  "fps": 29.994526546250682,
+  "grasp": 85,
+  "release": null,
+  "ok": false,
+  "coverage": 0.989,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "fail_IMG_0837": {
+  "group": "fail",
+  "fps": 30.0,
+  "grasp": 44,
+  "release": null,
+  "ok": false,
+  "coverage": 0.9,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "fail_IMG_0838": {
+  "group": "fail",
+  "fps": 30.0,
+  "grasp": 33,
+  "release": 65,
+  "ok": true,
+  "coverage": 0.969,
+  "grasp_xy": [
+   0.5024764955043792,
+   0.4893410325050354
+  ],
+  "release_xy": [
+   0.5603309273719788,
+   0.12256989330053329
+  ]
+ },
+ "fail_IMG_0839": {
+  "group": "fail",
+  "fps": 30.0,
+  "grasp": 32,
+  "release": 127,
+  "ok": true,
+  "coverage": 0.657,
+  "grasp_xy": [
+   0.48344363570213317,
+   0.5114661037921906
+  ],
+  "release_xy": [
+   0.7267950356006623,
+   0.5950385153293609
+  ]
+ },
+ "gauss10_IMG_0786": {
+  "group": "gauss10",
+  "fps": 29.995,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.321,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss10_IMG_0787": {
+  "group": "gauss10",
+  "fps": 29.995,
+  "grasp": 91,
+  "release": 159,
+  "ok": true,
+  "coverage": 0.702,
+  "grasp_xy": [
+   0.4919822782278061,
+   0.4490316480398178
+  ],
+  "release_xy": [
+   0.7498807430267334,
+   0.34942097663879396
+  ]
+ },
+ "gauss10_IMG_0788": {
+  "group": "gauss10",
+  "fps": 29.995,
+  "grasp": 189,
+  "release": 200,
+  "ok": true,
+  "coverage": 0.382,
+  "grasp_xy": [
+   0.7165332794189453,
+   0.21447217911481858
+  ],
+  "release_xy": [
+   0.7344239175319671,
+   0.33469131886959075
+  ]
+ },
+ "gauss10_IMG_0789": {
+  "group": "gauss10",
+  "fps": 29.995,
+  "grasp": 97,
+  "release": 147,
+  "ok": true,
+  "coverage": 0.532,
+  "grasp_xy": [
+   0.45269158482551575,
+   0.3901333461205165
+  ],
+  "release_xy": [
+   0.6391862004995346,
+   0.3506005257368088
+  ]
+ },
+ "gauss10_IMG_0790": {
+  "group": "gauss10",
+  "fps": 29.995,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.597,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss10_IMG_0791": {
+  "group": "gauss10",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.403,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss10_IMG_0792": {
+  "group": "gauss10",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 1.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss10_IMG_0793": {
+  "group": "gauss10",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.705,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss10_IMG_0794": {
+  "group": "gauss10",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.644,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss10_IMG_0795": {
+  "group": "gauss10",
+  "fps": 29.994,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.485,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss10_IMG_0796": {
+  "group": "gauss10",
+  "fps": 30.0,
+  "grasp": 70,
+  "release": 155,
+  "ok": true,
+  "coverage": 0.846,
+  "grasp_xy": [
+   0.4067364543676376,
+   0.4532512605190277
+  ],
+  "release_xy": [
+   0.7246140778064728,
+   0.558712100982666
+  ]
+ },
+ "gauss10_IMG_0797": {
+  "group": "gauss10",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.647,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss10_IMG_0798": {
+  "group": "gauss10",
+  "fps": 30.0,
+  "grasp": 78,
+  "release": 94,
+  "ok": true,
+  "coverage": 0.752,
+  "grasp_xy": [
+   0.4648947507143021,
+   0.3067644268274307
+  ],
+  "release_xy": [
+   0.5807604610919952,
+   0.25233070850372313
+  ]
+ },
+ "gauss10_IMG_0799": {
+  "group": "gauss10",
+  "fps": 30.0,
+  "grasp": 80,
+  "release": 111,
+  "ok": true,
+  "coverage": 0.845,
+  "grasp_xy": [
+   0.4296772599220276,
+   0.466026608645916
+  ],
+  "release_xy": [
+   0.4876695324977239,
+   0.2636118258039157
+  ]
+ },
+ "gauss10_IMG_0800": {
+  "group": "gauss10",
+  "fps": 29.994,
+  "grasp": 80,
+  "release": 137,
+  "ok": true,
+  "coverage": 0.574,
+  "grasp_xy": [
+   0.42734119296073914,
+   0.45679981509844464
+  ],
+  "release_xy": [
+   0.6693877180417379,
+   0.39005779723326367
+  ]
+ },
+ "gauss10_IMG_0801": {
+  "group": "gauss10",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.957,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss10_IMG_0802": {
+  "group": "gauss10",
+  "fps": 30.0,
+  "grasp": 86,
+  "release": 121,
+  "ok": true,
+  "coverage": 0.904,
+  "grasp_xy": [
+   0.44260031282901763,
+   0.48073298037052153
+  ],
+  "release_xy": [
+   0.6132894515991211,
+   0.32896728813648224
+  ]
+ },
+ "gauss10_IMG_0803": {
+  "group": "gauss10",
+  "fps": 29.995,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.986,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss10_IMG_0804": {
+  "group": "gauss10",
+  "fps": 29.995,
+  "grasp": 125,
+  "release": 139,
+  "ok": true,
+  "coverage": 0.658,
+  "grasp_xy": [
+   0.7511844237645467,
+   0.24132731556892395
+  ],
+  "release_xy": [
+   0.7892932176589966,
+   0.3566944241523743
+  ]
+ },
+ "gauss10_IMG_0805": {
+  "group": "gauss10",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.691,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss10_IMG_0806": {
+  "group": "gauss10",
+  "fps": 30.0,
+  "grasp": 68,
+  "release": 114,
+  "ok": true,
+  "coverage": 0.815,
+  "grasp_xy": [
+   0.4083997368812561,
+   0.4757188826799393
+  ],
+  "release_xy": [
+   0.5933462738990783,
+   0.3808463603258133
+  ]
+ },
+ "gauss10_IMG_0807": {
+  "group": "gauss10",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.77,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss10_IMG_0808": {
+  "group": "gauss10",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.622,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss10_IMG_0809": {
+  "group": "gauss10",
+  "fps": 29.995,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.59,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss10_IMG_0810": {
+  "group": "gauss10",
+  "fps": 30.0,
+  "grasp": 130,
+  "release": 147,
+  "ok": true,
+  "coverage": 0.381,
+  "grasp_xy": [
+   0.7056505183378855,
+   0.37515559295813244
+  ],
+  "release_xy": [
+   0.7197390735149384,
+   0.5636700630187989
+  ]
+ },
+ "gauss10_IMG_0811": {
+  "group": "gauss10",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.63,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss10_IMG_0812": {
+  "group": "gauss10",
+  "fps": 29.995,
+  "grasp": 115,
+  "release": 160,
+  "ok": true,
+  "coverage": 0.713,
+  "grasp_xy": [
+   0.4548130244016647,
+   0.20586279183626174
+  ],
+  "release_xy": [
+   0.7753639817237854,
+   0.317096471786499
+  ]
+ },
+ "gauss10_IMG_0813": {
+  "group": "gauss10",
+  "fps": 30.0,
+  "grasp": 92,
+  "release": 135,
+  "ok": true,
+  "coverage": 0.678,
+  "grasp_xy": [
+   0.4025361657142639,
+   0.4221247941255569
+  ],
+  "release_xy": [
+   0.7072315156459809,
+   0.40923040807247163
+  ]
+ },
+ "gauss10_IMG_0814": {
+  "group": "gauss10",
+  "fps": 30.0,
+  "grasp": 83,
+  "release": 113,
+  "ok": true,
+  "coverage": 0.921,
+  "grasp_xy": [
+   0.4106706202030182,
+   0.5022539049386978
+  ],
+  "release_xy": [
+   0.4571002185344696,
+   0.31406942903995516
+  ]
+ },
+ "gauss10_IMG_0815": {
+  "group": "gauss10",
+  "fps": 30.0,
+  "grasp": 62,
+  "release": 117,
+  "ok": true,
+  "coverage": 0.471,
+  "grasp_xy": [
+   0.4387687832117081,
+   0.5060818612575531
+  ],
+  "release_xy": [
+   0.6143523633480072,
+   0.38966481387615204
+  ]
+ },
+ "gauss10_IMG_0816": {
+  "group": "gauss10",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.759,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss10_IMG_0817": {
+  "group": "gauss10",
+  "fps": 30.0,
+  "grasp": 60,
+  "release": 77,
+  "ok": true,
+  "coverage": 0.911,
+  "grasp_xy": [
+   0.4321542263031006,
+   0.4819343239068985
+  ],
+  "release_xy": [
+   0.43299993574619294,
+   0.2983050048351288
+  ]
+ },
+ "gauss10_IMG_0818": {
+  "group": "gauss10",
+  "fps": 30.0,
+  "grasp": 71,
+  "release": 84,
+  "ok": true,
+  "coverage": 0.812,
+  "grasp_xy": [
+   0.4283046672741572,
+   0.448195348183314
+  ],
+  "release_xy": [
+   0.43952318131923673,
+   0.3389847010374069
+  ]
+ },
+ "gauss10_IMG_0819": {
+  "group": "gauss10",
+  "fps": 30.0,
+  "grasp": 92,
+  "release": 133,
+  "ok": true,
+  "coverage": 0.877,
+  "grasp_xy": [
+   0.4266377419233322,
+   0.5069724768400192
+  ],
+  "release_xy": [
+   0.5805603623390198,
+   0.3763678103685379
+  ]
+ },
+ "gauss10_IMG_0820": {
+  "group": "gauss10",
+  "fps": 30.0,
+  "grasp": 80,
+  "release": 102,
+  "ok": true,
+  "coverage": 0.892,
+  "grasp_xy": [
+   0.4365989089012146,
+   0.2642120122909546
+  ],
+  "release_xy": [
+   0.5991580367088318,
+   0.3171689972281456
+  ]
+ },
+ "gauss10_IMG_0821": {
+  "group": "gauss10",
+  "fps": 30.0,
+  "grasp": 62,
+  "release": 108,
+  "ok": true,
+  "coverage": 0.924,
+  "grasp_xy": [
+   0.431641286611557,
+   0.4191300839185715
+  ],
+  "release_xy": [
+   0.7326870679855346,
+   0.30748693346977235
+  ]
+ },
+ "gauss10_IMG_0822": {
+  "group": "gauss10",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.752,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss10_IMG_0823": {
+  "group": "gauss10",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 1.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss10_IMG_0824": {
+  "group": "gauss10",
+  "fps": 30.0,
+  "grasp": 68,
+  "release": 115,
+  "ok": true,
+  "coverage": 0.865,
+  "grasp_xy": [
+   0.4372657358646393,
+   0.23437153548002243
+  ],
+  "release_xy": [
+   0.7201896667480469,
+   0.5567448675632477
+  ]
+ },
+ "gauss12_IMG_0786": {
+  "group": "gauss12",
+  "fps": 29.995,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.091,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0787": {
+  "group": "gauss12",
+  "fps": 29.995,
+  "grasp": 101,
+  "release": 144,
+  "ok": true,
+  "coverage": 0.312,
+  "grasp_xy": [
+   0.491184264421463,
+   0.31100983421007794
+  ],
+  "release_xy": [
+   0.6682421386241912,
+   0.26087784171104433
+  ]
+ },
+ "gauss12_IMG_0788": {
+  "group": "gauss12",
+  "fps": 29.995,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.298,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0789": {
+  "group": "gauss12",
+  "fps": 29.995,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.357,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0790": {
+  "group": "gauss12",
+  "fps": 29.995,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 1.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0791": {
+  "group": "gauss12",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.324,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0792": {
+  "group": "gauss12",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0793": {
+  "group": "gauss12",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 1.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0794": {
+  "group": "gauss12",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0795": {
+  "group": "gauss12",
+  "fps": 29.994,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0796": {
+  "group": "gauss12",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 1.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0797": {
+  "group": "gauss12",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.947,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0798": {
+  "group": "gauss12",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0799": {
+  "group": "gauss12",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.236,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0800": {
+  "group": "gauss12",
+  "fps": 29.994,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.165,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0801": {
+  "group": "gauss12",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.778,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0802": {
+  "group": "gauss12",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.455,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0803": {
+  "group": "gauss12",
+  "fps": 29.995,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.297,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0804": {
+  "group": "gauss12",
+  "fps": 29.995,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.343,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0805": {
+  "group": "gauss12",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.161,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0806": {
+  "group": "gauss12",
+  "fps": 30.0,
+  "grasp": 104,
+  "release": 116,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4879194676876068,
+   0.3409400522708893
+  ],
+  "release_xy": [
+   0.6200575053691864,
+   0.384331488609314
+  ]
+ },
+ "gauss12_IMG_0807": {
+  "group": "gauss12",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 1.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0808": {
+  "group": "gauss12",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0809": {
+  "group": "gauss12",
+  "fps": 29.995,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 1.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0810": {
+  "group": "gauss12",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0811": {
+  "group": "gauss12",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 1.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0812": {
+  "group": "gauss12",
+  "fps": 29.995,
+  "grasp": 154,
+  "release": 161,
+  "ok": true,
+  "coverage": 0.493,
+  "grasp_xy": [
+   0.7592954635620117,
+   0.28861704965432483
+  ],
+  "release_xy": [
+   0.7778686821460724,
+   0.3232537776231766
+  ]
+ },
+ "gauss12_IMG_0813": {
+  "group": "gauss12",
+  "fps": 30.0,
+  "grasp": 96,
+  "release": 179,
+  "ok": true,
+  "coverage": 0.174,
+  "grasp_xy": [
+   0.40894173582394916,
+   0.37820200125376385
+  ],
+  "release_xy": [
+   0.7545141875743866,
+   0.267413429915905
+  ]
+ },
+ "gauss12_IMG_0814": {
+  "group": "gauss12",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.412,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0815": {
+  "group": "gauss12",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.088,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0816": {
+  "group": "gauss12",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.463,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0817": {
+  "group": "gauss12",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 1.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0818": {
+  "group": "gauss12",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.409,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0819": {
+  "group": "gauss12",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.509,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0820": {
+  "group": "gauss12",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.164,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0821": {
+  "group": "gauss12",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.409,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0822": {
+  "group": "gauss12",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.52,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0823": {
+  "group": "gauss12",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 1.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss12_IMG_0824": {
+  "group": "gauss12",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.354,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0786": {
+  "group": "gauss24",
+  "fps": 29.995,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0787": {
+  "group": "gauss24",
+  "fps": 29.995,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0788": {
+  "group": "gauss24",
+  "fps": 29.995,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0789": {
+  "group": "gauss24",
+  "fps": 29.995,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0790": {
+  "group": "gauss24",
+  "fps": 29.995,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0791": {
+  "group": "gauss24",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0792": {
+  "group": "gauss24",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0793": {
+  "group": "gauss24",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0794": {
+  "group": "gauss24",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0795": {
+  "group": "gauss24",
+  "fps": 29.994,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0796": {
+  "group": "gauss24",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0797": {
+  "group": "gauss24",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0798": {
+  "group": "gauss24",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0799": {
+  "group": "gauss24",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0800": {
+  "group": "gauss24",
+  "fps": 29.994,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0801": {
+  "group": "gauss24",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0802": {
+  "group": "gauss24",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0803": {
+  "group": "gauss24",
+  "fps": 29.995,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0804": {
+  "group": "gauss24",
+  "fps": 29.995,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0805": {
+  "group": "gauss24",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0806": {
+  "group": "gauss24",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0807": {
+  "group": "gauss24",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0808": {
+  "group": "gauss24",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0809": {
+  "group": "gauss24",
+  "fps": 29.995,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0810": {
+  "group": "gauss24",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0811": {
+  "group": "gauss24",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0812": {
+  "group": "gauss24",
+  "fps": 29.995,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0813": {
+  "group": "gauss24",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0814": {
+  "group": "gauss24",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0815": {
+  "group": "gauss24",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0816": {
+  "group": "gauss24",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0817": {
+  "group": "gauss24",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0818": {
+  "group": "gauss24",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0819": {
+  "group": "gauss24",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0820": {
+  "group": "gauss24",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0821": {
+  "group": "gauss24",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0822": {
+  "group": "gauss24",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0823": {
+  "group": "gauss24",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss24_IMG_0824": {
+  "group": "gauss24",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss6_IMG_0786": {
+  "group": "gauss6",
+  "fps": 29.995,
+  "grasp": 73,
+  "release": 131,
+  "ok": true,
+  "coverage": 0.814,
+  "grasp_xy": [
+   0.48787263929843905,
+   0.4255537182092667
+  ],
+  "release_xy": [
+   0.6036672174930573,
+   0.34070520401000975
+  ]
+ },
+ "gauss6_IMG_0787": {
+  "group": "gauss6",
+  "fps": 29.995,
+  "grasp": 91,
+  "release": 144,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.49024145007133485,
+   0.4505288302898407
+  ],
+  "release_xy": [
+   0.6588680863380432,
+   0.275027497112751
+  ]
+ },
+ "gauss6_IMG_0788": {
+  "group": "gauss6",
+  "fps": 29.995,
+  "grasp": 126,
+  "release": 179,
+  "ok": true,
+  "coverage": 0.915,
+  "grasp_xy": [
+   0.452498796582222,
+   0.4316683322191238
+  ],
+  "release_xy": [
+   0.6013103663921356,
+   0.22393232733011245
+  ]
+ },
+ "gauss6_IMG_0789": {
+  "group": "gauss6",
+  "fps": 29.995,
+  "grasp": 87,
+  "release": 141,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.45149906873703005,
+   0.4379129528999329
+  ],
+  "release_xy": [
+   0.5729910135269165,
+   0.33849301636219026
+  ]
+ },
+ "gauss6_IMG_0790": {
+  "group": "gauss6",
+  "fps": 29.995,
+  "grasp": 106,
+  "release": 161,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4472593069076538,
+   0.446083328127861
+  ],
+  "release_xy": [
+   0.5618257701396943,
+   0.3208518475294113
+  ]
+ },
+ "gauss6_IMG_0791": {
+  "group": "gauss6",
+  "fps": 30.0,
+  "grasp": 77,
+  "release": 123,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4273275524377823,
+   0.42043614089488984
+  ],
+  "release_xy": [
+   0.6301595568656921,
+   0.30071891844272614
+  ]
+ },
+ "gauss6_IMG_0792": {
+  "group": "gauss6",
+  "fps": 30.0,
+  "grasp": 79,
+  "release": 136,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4077834963798523,
+   0.44567115008831026
+  ],
+  "release_xy": [
+   0.5922855198383331,
+   0.3249425619840622
+  ]
+ },
+ "gauss6_IMG_0793": {
+  "group": "gauss6",
+  "fps": 30.0,
+  "grasp": 79,
+  "release": 114,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.41008930206298827,
+   0.44881285429000856
+  ],
+  "release_xy": [
+   0.5572228014469147,
+   0.2636548548936844
+  ]
+ },
+ "gauss6_IMG_0794": {
+  "group": "gauss6",
+  "fps": 30.0,
+  "grasp": 69,
+  "release": 105,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4242317706346512,
+   0.4576491415500641
+  ],
+  "release_xy": [
+   0.5863104343414307,
+   0.22571392059326173
+  ]
+ },
+ "gauss6_IMG_0795": {
+  "group": "gauss6",
+  "fps": 29.994,
+  "grasp": 84,
+  "release": 130,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.42164142727851867,
+   0.4181080162525177
+  ],
+  "release_xy": [
+   0.6536278665065766,
+   0.25039525479078295
+  ]
+ },
+ "gauss6_IMG_0796": {
+  "group": "gauss6",
+  "fps": 30.0,
+  "grasp": 70,
+  "release": 129,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.40646601021289824,
+   0.4600549638271332
+  ],
+  "release_xy": [
+   0.6902379333972931,
+   0.3151936918497086
+  ]
+ },
+ "gauss6_IMG_0797": {
+  "group": "gauss6",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.991,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss6_IMG_0798": {
+  "group": "gauss6",
+  "fps": 30.0,
+  "grasp": 62,
+  "release": 97,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.43864006698131563,
+   0.5113877296447754
+  ],
+  "release_xy": [
+   0.6098903238773346,
+   0.28296355307102206
+  ]
+ },
+ "gauss6_IMG_0799": {
+  "group": "gauss6",
+  "fps": 30.0,
+  "grasp": 75,
+  "release": 126,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4304897725582123,
+   0.49385852217674253
+  ],
+  "release_xy": [
+   0.5748842895030976,
+   0.3480914145708084
+  ]
+ },
+ "gauss6_IMG_0800": {
+  "group": "gauss6",
+  "fps": 29.994,
+  "grasp": 75,
+  "release": 131,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4325461030006409,
+   0.48873402178287506
+  ],
+  "release_xy": [
+   0.6176709592342376,
+   0.27645752131938933
+  ]
+ },
+ "gauss6_IMG_0801": {
+  "group": "gauss6",
+  "fps": 30.0,
+  "grasp": 77,
+  "release": 143,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.43366333544254304,
+   0.4807909518480301
+  ],
+  "release_xy": [
+   0.7053447663784027,
+   0.5029455721378326
+  ]
+ },
+ "gauss6_IMG_0802": {
+  "group": "gauss6",
+  "fps": 30.0,
+  "grasp": 85,
+  "release": 167,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.44093901515007017,
+   0.4905705779790878
+  ],
+  "release_xy": [
+   0.7113554358482361,
+   0.6447908759117127
+  ]
+ },
+ "gauss6_IMG_0803": {
+  "group": "gauss6",
+  "fps": 29.995,
+  "grasp": 85,
+  "release": 123,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4298021763563156,
+   0.49692428708076475
+  ],
+  "release_xy": [
+   0.5461727499961853,
+   0.32442185580730437
+  ]
+ },
+ "gauss6_IMG_0804": {
+  "group": "gauss6",
+  "fps": 29.995,
+  "grasp": 85,
+  "release": 149,
+  "ok": true,
+  "coverage": 0.866,
+  "grasp_xy": [
+   0.4364893525838852,
+   0.30378817915916445
+  ],
+  "release_xy": [
+   0.733440363407135,
+   0.5362947106361389
+  ]
+ },
+ "gauss6_IMG_0805": {
+  "group": "gauss6",
+  "fps": 30.0,
+  "grasp": 72,
+  "release": 119,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4497540295124054,
+   0.4498751848936081
+  ],
+  "release_xy": [
+   0.675331836938858,
+   0.37360589802265165
+  ]
+ },
+ "gauss6_IMG_0806": {
+  "group": "gauss6",
+  "fps": 30.0,
+  "grasp": 67,
+  "release": 116,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.40731334388256074,
+   0.47840343713760375
+  ],
+  "release_xy": [
+   0.619134110212326,
+   0.3871945559978485
+  ]
+ },
+ "gauss6_IMG_0807": {
+  "group": "gauss6",
+  "fps": 30.0,
+  "grasp": 76,
+  "release": 158,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.408818906545639,
+   0.48508245050907134
+  ],
+  "release_xy": [
+   0.7204347372055053,
+   0.5621486961841583
+  ]
+ },
+ "gauss6_IMG_0808": {
+  "group": "gauss6",
+  "fps": 30.0,
+  "grasp": 87,
+  "release": 95,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4328338921070099,
+   0.4814864009618759
+  ],
+  "release_xy": [
+   0.4341795235872269,
+   0.45989166498184203
+  ]
+ },
+ "gauss6_IMG_0809": {
+  "group": "gauss6",
+  "fps": 29.995,
+  "grasp": 112,
+  "release": 126,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4334514647722244,
+   0.5089072823524475
+  ],
+  "release_xy": [
+   0.4307372123003006,
+   0.48088968396186826
+  ]
+ },
+ "gauss6_IMG_0810": {
+  "group": "gauss6",
+  "fps": 30.0,
+  "grasp": 77,
+  "release": 145,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4303304970264435,
+   0.49597551226615905
+  ],
+  "release_xy": [
+   0.7067285478115082,
+   0.5576860845088959
+  ]
+ },
+ "gauss6_IMG_0811": {
+  "group": "gauss6",
+  "fps": 30.0,
+  "grasp": 70,
+  "release": 79,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.44820290207862856,
+   0.4806946307420731
+  ],
+  "release_xy": [
+   0.4469721525907516,
+   0.43061027228832244
+  ]
+ },
+ "gauss6_IMG_0812": {
+  "group": "gauss6",
+  "fps": 29.995,
+  "grasp": 82,
+  "release": 181,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.42379472851753236,
+   0.4780966341495514
+  ],
+  "release_xy": [
+   0.733914601802826,
+   0.587893944978714
+  ]
+ },
+ "gauss6_IMG_0813": {
+  "group": "gauss6",
+  "fps": 30.0,
+  "grasp": 94,
+  "release": 138,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4057133883237839,
+   0.4000959485769272
+  ],
+  "release_xy": [
+   0.7246269047260284,
+   0.4571936160326004
+  ]
+ },
+ "gauss6_IMG_0814": {
+  "group": "gauss6",
+  "fps": 30.0,
+  "grasp": 82,
+  "release": 155,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4079762935638428,
+   0.5119333028793335
+  ],
+  "release_xy": [
+   0.7137729585170746,
+   0.5771189272403717
+  ]
+ },
+ "gauss6_IMG_0815": {
+  "group": "gauss6",
+  "fps": 30.0,
+  "grasp": 61,
+  "release": 144,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4381681948900223,
+   0.5086104154586792
+  ],
+  "release_xy": [
+   0.7168148279190063,
+   0.571391624212265
+  ]
+ },
+ "gauss6_IMG_0816": {
+  "group": "gauss6",
+  "fps": 30.0,
+  "grasp": 63,
+  "release": 100,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4434723675251007,
+   0.481354284286499
+  ],
+  "release_xy": [
+   0.587736064195633,
+   0.3323909789323807
+  ]
+ },
+ "gauss6_IMG_0817": {
+  "group": "gauss6",
+  "fps": 30.0,
+  "grasp": 59,
+  "release": 126,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.43182277381420137,
+   0.496843746304512
+  ],
+  "release_xy": [
+   0.7323643088340759,
+   0.5143959820270538
+  ]
+ },
+ "gauss6_IMG_0818": {
+  "group": "gauss6",
+  "fps": 30.0,
+  "grasp": 63,
+  "release": 119,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4322491675615311,
+   0.49202619194984437
+  ],
+  "release_xy": [
+   0.6992689609527588,
+   0.48432927429676054
+  ]
+ },
+ "gauss6_IMG_0819": {
+  "group": "gauss6",
+  "fps": 30.0,
+  "grasp": 104,
+  "release": 141,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4239011466503143,
+   0.4434956192970276
+  ],
+  "release_xy": [
+   0.666454529762268,
+   0.4132131665945053
+  ]
+ },
+ "gauss6_IMG_0820": {
+  "group": "gauss6",
+  "fps": 30.0,
+  "grasp": 82,
+  "release": 109,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.43608390986919404,
+   0.2535713776946068
+  ],
+  "release_xy": [
+   0.6812457740306854,
+   0.36998730301856997
+  ]
+ },
+ "gauss6_IMG_0821": {
+  "group": "gauss6",
+  "fps": 30.0,
+  "grasp": 54,
+  "release": 121,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.43164360225200654,
+   0.48757404685020445
+  ],
+  "release_xy": [
+   0.716202688217163,
+   0.5259705603122711
+  ]
+ },
+ "gauss6_IMG_0822": {
+  "group": "gauss6",
+  "fps": 30.0,
+  "grasp": 56,
+  "release": 84,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4049839586019516,
+   0.4743930667638779
+  ],
+  "release_xy": [
+   0.49642303586006165,
+   0.24339822977781295
+  ]
+ },
+ "gauss6_IMG_0823": {
+  "group": "gauss6",
+  "fps": 30.0,
+  "grasp": 49,
+  "release": 76,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4204167902469635,
+   0.47987698912620547
+  ],
+  "release_xy": [
+   0.4770874798297882,
+   0.2515711814165115
+  ]
+ },
+ "gauss6_IMG_0824": {
+  "group": "gauss6",
+  "fps": 30.0,
+  "grasp": 50,
+  "release": 116,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4217782348394394,
+   0.4833334296941757
+  ],
+  "release_xy": [
+   0.7154302656650543,
+   0.567244040966034
+  ]
+ },
+ "gauss8_IMG_0786": {
+  "group": "gauss8",
+  "fps": 29.995,
+  "grasp": 104,
+  "release": 124,
+  "ok": true,
+  "coverage": 0.734,
+  "grasp_xy": [
+   0.4932796686887741,
+   0.20816606134176255
+  ],
+  "release_xy": [
+   0.5477461516857147,
+   0.28998578786849977
+  ]
+ },
+ "gauss8_IMG_0787": {
+  "group": "gauss8",
+  "fps": 29.995,
+  "grasp": 91,
+  "release": 162,
+  "ok": true,
+  "coverage": 0.951,
+  "grasp_xy": [
+   0.4908814936876297,
+   0.44971496164798735
+  ],
+  "release_xy": [
+   0.74048410654068,
+   0.41842193305492403
+  ]
+ },
+ "gauss8_IMG_0788": {
+  "group": "gauss8",
+  "fps": 29.995,
+  "grasp": 131,
+  "release": 180,
+  "ok": true,
+  "coverage": 0.763,
+  "grasp_xy": [
+   0.45184316188097,
+   0.39442967623472214
+  ],
+  "release_xy": [
+   0.6134453773498535,
+   0.22409697622060776
+  ]
+ },
+ "gauss8_IMG_0789": {
+  "group": "gauss8",
+  "fps": 29.995,
+  "grasp": 91,
+  "release": 141,
+  "ok": true,
+  "coverage": 0.943,
+  "grasp_xy": [
+   0.45221134424209597,
+   0.42699719667434693
+  ],
+  "release_xy": [
+   0.575993025302887,
+   0.33302465081214905
+  ]
+ },
+ "gauss8_IMG_0790": {
+  "group": "gauss8",
+  "fps": 29.995,
+  "grasp": 105,
+  "release": 119,
+  "ok": true,
+  "coverage": 0.977,
+  "grasp_xy": [
+   0.4480048567056656,
+   0.4403258144855499
+  ],
+  "release_xy": [
+   0.4442829221487045,
+   0.3322788566350937
+  ]
+ },
+ "gauss8_IMG_0791": {
+  "group": "gauss8",
+  "fps": 30.0,
+  "grasp": 95,
+  "release": 121,
+  "ok": true,
+  "coverage": 0.74,
+  "grasp_xy": [
+   0.4469976842403412,
+   0.1662745803594589
+  ],
+  "release_xy": [
+   0.6082556128501893,
+   0.2742931455373764
+  ]
+ },
+ "gauss8_IMG_0792": {
+  "group": "gauss8",
+  "fps": 30.0,
+  "grasp": 93,
+  "release": 132,
+  "ok": true,
+  "coverage": 0.982,
+  "grasp_xy": [
+   0.40735761523246766,
+   0.3117637425661087
+  ],
+  "release_xy": [
+   0.5405449390411377,
+   0.3005684643983841
+  ]
+ },
+ "gauss8_IMG_0793": {
+  "group": "gauss8",
+  "fps": 30.0,
+  "grasp": 99,
+  "release": 107,
+  "ok": true,
+  "coverage": 0.99,
+  "grasp_xy": [
+   0.41553582847118375,
+   0.20548823326826096
+  ],
+  "release_xy": [
+   0.45724521577358246,
+   0.22691672891378403
+  ]
+ },
+ "gauss8_IMG_0794": {
+  "group": "gauss8",
+  "fps": 30.0,
+  "grasp": 90,
+  "release": 98,
+  "ok": true,
+  "coverage": 0.963,
+  "grasp_xy": [
+   0.4510001361370087,
+   0.2118302196264267
+  ],
+  "release_xy": [
+   0.49051434397697447,
+   0.21034954190254213
+  ]
+ },
+ "gauss8_IMG_0795": {
+  "group": "gauss8",
+  "fps": 29.994,
+  "grasp": 77,
+  "release": 129,
+  "ok": true,
+  "coverage": 0.985,
+  "grasp_xy": [
+   0.41805585026741027,
+   0.4344053030014038
+  ],
+  "release_xy": [
+   0.6445789396762848,
+   0.23970247954130172
+  ]
+ },
+ "gauss8_IMG_0796": {
+  "group": "gauss8",
+  "fps": 30.0,
+  "grasp": 70,
+  "release": 155,
+  "ok": true,
+  "coverage": 0.977,
+  "grasp_xy": [
+   0.4072771012783051,
+   0.4535891115665436
+  ],
+  "release_xy": [
+   0.7223710894584656,
+   0.5633717715740204
+  ]
+ },
+ "gauss8_IMG_0797": {
+  "group": "gauss8",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.953,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss8_IMG_0798": {
+  "group": "gauss8",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.991,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss8_IMG_0799": {
+  "group": "gauss8",
+  "fps": 30.0,
+  "grasp": 80,
+  "release": 120,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4308156669139862,
+   0.47049886286258696
+  ],
+  "release_xy": [
+   0.5356202483177185,
+   0.3016116887331009
+  ]
+ },
+ "gauss8_IMG_0800": {
+  "group": "gauss8",
+  "fps": 29.994,
+  "grasp": 78,
+  "release": 93,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.43154451847076414,
+   0.4760479092597961
+  ],
+  "release_xy": [
+   0.44308006167411806,
+   0.29057736992836
+  ]
+ },
+ "gauss8_IMG_0801": {
+  "group": "gauss8",
+  "fps": 30.0,
+  "grasp": 83,
+  "release": 140,
+  "ok": true,
+  "coverage": 0.806,
+  "grasp_xy": [
+   0.4367888689041138,
+   0.44483316540718076
+  ],
+  "release_xy": [
+   0.7097772300243378,
+   0.4553564369678497
+  ]
+ },
+ "gauss8_IMG_0802": {
+  "group": "gauss8",
+  "fps": 30.0,
+  "grasp": 85,
+  "release": 124,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.44196608662605286,
+   0.4875713735818863
+  ],
+  "release_xy": [
+   0.6433526396751403,
+   0.34428062438964846
+  ]
+ },
+ "gauss8_IMG_0803": {
+  "group": "gauss8",
+  "fps": 29.995,
+  "grasp": 85,
+  "release": 114,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4303274601697922,
+   0.49570092856884
+  ],
+  "release_xy": [
+   0.4822190135717392,
+   0.2900431275367737
+  ]
+ },
+ "gauss8_IMG_0804": {
+  "group": "gauss8",
+  "fps": 29.995,
+  "grasp": 70,
+  "release": 86,
+  "ok": true,
+  "coverage": 0.824,
+  "grasp_xy": [
+   0.42484141886234283,
+   0.4726453274488449
+  ],
+  "release_xy": [
+   0.4405740648508072,
+   0.2765271872282028
+  ]
+ },
+ "gauss8_IMG_0805": {
+  "group": "gauss8",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.912,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "gauss8_IMG_0806": {
+  "group": "gauss8",
+  "fps": 30.0,
+  "grasp": 67,
+  "release": 113,
+  "ok": true,
+  "coverage": 0.992,
+  "grasp_xy": [
+   0.4073098212480545,
+   0.4753962308168411
+  ],
+  "release_xy": [
+   0.5794923901557922,
+   0.3771959990262985
+  ]
+ },
+ "gauss8_IMG_0807": {
+  "group": "gauss8",
+  "fps": 30.0,
+  "grasp": 76,
+  "release": 159,
+  "ok": true,
+  "coverage": 0.965,
+  "grasp_xy": [
+   0.4088759899139404,
+   0.48408896327018736
+  ],
+  "release_xy": [
+   0.7247078716754913,
+   0.5683763146400451
+  ]
+ },
+ "gauss8_IMG_0808": {
+  "group": "gauss8",
+  "fps": 30.0,
+  "grasp": 88,
+  "release": 102,
+  "ok": true,
+  "coverage": 0.984,
+  "grasp_xy": [
+   0.4348750501871109,
+   0.4798240065574646
+  ],
+  "release_xy": [
+   0.44912984371185305,
+   0.39305944442749025
+  ]
+ },
+ "gauss8_IMG_0809": {
+  "group": "gauss8",
+  "fps": 29.995,
+  "grasp": 114,
+  "release": 125,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4333601355552673,
+   0.5053487449884415
+  ],
+  "release_xy": [
+   0.43452808558940886,
+   0.47675895094871523
+  ]
+ },
+ "gauss8_IMG_0810": {
+  "group": "gauss8",
+  "fps": 30.0,
+  "grasp": 78,
+  "release": 146,
+  "ok": true,
+  "coverage": 0.985,
+  "grasp_xy": [
+   0.43181518018245696,
+   0.48944704234600067
+  ],
+  "release_xy": [
+   0.7149601519107819,
+   0.5575890243053436
+  ]
+ },
+ "gauss8_IMG_0811": {
+  "group": "gauss8",
+  "fps": 30.0,
+  "grasp": 71,
+  "release": 135,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4485363721847534,
+   0.47786070704460143
+  ],
+  "release_xy": [
+   0.7230852246284485,
+   0.3989825576543808
+  ]
+ },
+ "gauss8_IMG_0812": {
+  "group": "gauss8",
+  "fps": 29.995,
+  "grasp": 88,
+  "release": 160,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.42149117290973664,
+   0.47675863206386565
+  ],
+  "release_xy": [
+   0.7747299551963807,
+   0.32666394114494324
+  ]
+ },
+ "gauss8_IMG_0813": {
+  "group": "gauss8",
+  "fps": 30.0,
+  "grasp": 77,
+  "release": 134,
+  "ok": true,
+  "coverage": 0.984,
+  "grasp_xy": [
+   0.39200412929058076,
+   0.4926422744989395
+  ],
+  "release_xy": [
+   0.6993574440479279,
+   0.39460729360580443
+  ]
+ },
+ "gauss8_IMG_0814": {
+  "group": "gauss8",
+  "fps": 30.0,
+  "grasp": 82,
+  "release": 154,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.40970522463321685,
+   0.5076638638973237
+  ],
+  "release_xy": [
+   0.7153615772724151,
+   0.5699068427085876
+  ]
+ },
+ "gauss8_IMG_0815": {
+  "group": "gauss8",
+  "fps": 30.0,
+  "grasp": 61,
+  "release": 126,
+  "ok": true,
+  "coverage": 0.757,
+  "grasp_xy": [
+   0.43909811675548555,
+   0.5066690385341645
+  ],
+  "release_xy": [
+   0.7030188381671906,
+   0.4034473329782486
+  ]
+ },
+ "gauss8_IMG_0816": {
+  "group": "gauss8",
+  "fps": 30.0,
+  "grasp": 64,
+  "release": 80,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4424522936344147,
+   0.474354612827301
+  ],
+  "release_xy": [
+   0.4441253662109375,
+   0.3508340984582901
+  ]
+ },
+ "gauss8_IMG_0817": {
+  "group": "gauss8",
+  "fps": 30.0,
+  "grasp": 61,
+  "release": 108,
+  "ok": true,
+  "coverage": 0.984,
+  "grasp_xy": [
+   0.43411528766155244,
+   0.48261345624923707
+  ],
+  "release_xy": [
+   0.6564231932163238,
+   0.3304251879453659
+  ]
+ },
+ "gauss8_IMG_0818": {
+  "group": "gauss8",
+  "fps": 30.0,
+  "grasp": 62,
+  "release": 110,
+  "ok": true,
+  "coverage": 0.991,
+  "grasp_xy": [
+   0.43295100033283235,
+   0.4913134008646011
+  ],
+  "release_xy": [
+   0.6237273514270782,
+   0.42799161076545716
+  ]
+ },
+ "gauss8_IMG_0819": {
+  "group": "gauss8",
+  "fps": 30.0,
+  "grasp": 92,
+  "release": 140,
+  "ok": true,
+  "coverage": 0.993,
+  "grasp_xy": [
+   0.4254445433616638,
+   0.508905577659607
+  ],
+  "release_xy": [
+   0.6566268324851989,
+   0.4073638111352921
+  ]
+ },
+ "gauss8_IMG_0820": {
+  "group": "gauss8",
+  "fps": 30.0,
+  "grasp": 61,
+  "release": 103,
+  "ok": true,
+  "coverage": 0.992,
+  "grasp_xy": [
+   0.4312088876962662,
+   0.4860930860042572
+  ],
+  "release_xy": [
+   0.60996373295784,
+   0.3348861873149872
+  ]
+ },
+ "gauss8_IMG_0821": {
+  "group": "gauss8",
+  "fps": 30.0,
+  "grasp": 59,
+  "release": 123,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4308998376131058,
+   0.4578192949295044
+  ],
+  "release_xy": [
+   0.7136899590492248,
+   0.559243255853653
+  ]
+ },
+ "gauss8_IMG_0822": {
+  "group": "gauss8",
+  "fps": 30.0,
+  "grasp": 57,
+  "release": 84,
+  "ok": true,
+  "coverage": 0.982,
+  "grasp_xy": [
+   0.40671914219856264,
+   0.4676065891981125
+  ],
+  "release_xy": [
+   0.4990300238132477,
+   0.24070352911949158
+  ]
+ },
+ "gauss8_IMG_0823": {
+  "group": "gauss8",
+  "fps": 30.0,
+  "grasp": 49,
+  "release": 62,
+  "ok": true,
+  "coverage": 0.99,
+  "grasp_xy": [
+   0.42195739448070524,
+   0.47867209613323214
+  ],
+  "release_xy": [
+   0.43022093176841736,
+   0.34584256410598757
+  ]
+ },
+ "gauss8_IMG_0824": {
+  "group": "gauss8",
+  "fps": 30.0,
+  "grasp": 50,
+  "release": 116,
+  "ok": true,
+  "coverage": 0.983,
+  "grasp_xy": [
+   0.4233066588640213,
+   0.4814945489168167
+  ],
+  "release_xy": [
+   0.7173391699790954,
+   0.5691068708896637
+  ]
+ },
+ "good_IMG_0786": {
+  "group": "good",
+  "fps": 29.995114802149487,
+  "grasp": 73,
+  "release": 178,
+  "ok": true,
+  "coverage": 0.824,
+  "grasp_xy": [
+   0.48492721021175383,
+   0.4368993878364563
+  ],
+  "release_xy": [
+   0.699927818775177,
+   0.6215743720531464
+  ]
+ },
+ "good_IMG_0787": {
+  "group": "good",
+  "fps": 29.995193078032365,
+  "grasp": 90,
+  "release": 191,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.48509167730808256,
+   0.459163036942482
+  ],
+  "release_xy": [
+   0.7066948354244232,
+   0.6488070785999298
+  ]
+ },
+ "good_IMG_0788": {
+  "group": "good",
+  "fps": 29.995496171745984,
+  "grasp": 124,
+  "release": 228,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4488256752490997,
+   0.4462569445371628
+  ],
+  "release_xy": [
+   0.7053224921226502,
+   0.635878962278366
+  ]
+ },
+ "good_IMG_0789": {
+  "group": "good",
+  "fps": 29.995223690495145,
+  "grasp": 89,
+  "release": 191,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.44657655954360964,
+   0.4483504593372345
+  ],
+  "release_xy": [
+   0.6838287293910981,
+   0.6149219751358033
+  ]
+ },
+ "good_IMG_0790": {
+  "group": "good",
+  "fps": 29.99508277331585,
+  "grasp": 104,
+  "release": 209,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4413788080215454,
+   0.4558147996664047
+  ],
+  "release_xy": [
+   0.686943382024765,
+   0.6239486396312713
+  ]
+ },
+ "good_IMG_0791": {
+  "group": "good",
+  "fps": 30.0,
+  "grasp": 69,
+  "release": 179,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4228051871061325,
+   0.4678795993328094
+  ],
+  "release_xy": [
+   0.6981960535049438,
+   0.6273143053054809
+  ]
+ },
+ "good_IMG_0792": {
+  "group": "good",
+  "fps": 30.0,
+  "grasp": 77,
+  "release": 150,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.40273750722408297,
+   0.4557772815227509
+  ],
+  "release_xy": [
+   0.7099016427993774,
+   0.43952810764312744
+  ]
+ },
+ "good_IMG_0793": {
+  "group": "good",
+  "fps": 30.0,
+  "grasp": 79,
+  "release": 113,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.40530810654163363,
+   0.45514277219772337
+  ],
+  "release_xy": [
+   0.536490535736084,
+   0.2673809975385666
+  ]
+ },
+ "good_IMG_0794": {
+  "group": "good",
+  "fps": 30.0,
+  "grasp": 68,
+  "release": 105,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4189833700656891,
+   0.4641990095376968
+  ],
+  "release_xy": [
+   0.5840631306171418,
+   0.2277906581759453
+  ]
+ },
+ "good_IMG_0795": {
+  "group": "good",
+  "fps": 29.994404029099048,
+  "grasp": 74,
+  "release": 184,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.41536968052387235,
+   0.4684218496084213
+  ],
+  "release_xy": [
+   0.6978667080402374,
+   0.6212346076965332
+  ]
+ },
+ "good_IMG_0796": {
+  "group": "good",
+  "fps": 30.0,
+  "grasp": 74,
+  "release": 128,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.39960206151008604,
+   0.4563645124435425
+  ],
+  "release_xy": [
+   0.6784614562988281,
+   0.32062879800796507
+  ]
+ },
+ "good_IMG_0797": {
+  "group": "good",
+  "fps": 30.0,
+  "grasp": 91,
+  "release": 146,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4419110745191574,
+   0.5115094482898712
+  ],
+  "release_xy": [
+   0.717063707113266,
+   0.4200147598981857
+  ]
+ },
+ "good_IMG_0798": {
+  "group": "good",
+  "fps": 30.0,
+  "grasp": 66,
+  "release": 100,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4373548686504364,
+   0.4998864084482193
+  ],
+  "release_xy": [
+   0.6364189326763153,
+   0.3435225158929825
+  ]
+ },
+ "good_IMG_0799": {
+  "group": "good",
+  "fps": 30.0,
+  "grasp": 75,
+  "release": 183,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.42775430977344514,
+   0.5054609835147857
+  ],
+  "release_xy": [
+   0.7033027172088623,
+   0.6350475668907165
+  ]
+ },
+ "good_IMG_0800": {
+  "group": "good",
+  "fps": 29.994424828098868,
+  "grasp": 73,
+  "release": 130,
+  "ok": true,
+  "coverage": 0.904,
+  "grasp_xy": [
+   0.432487952709198,
+   0.4994582623243332
+  ],
+  "release_xy": [
+   0.60448037981987,
+   0.26243615448474883
+  ]
+ },
+ "good_IMG_0801": {
+  "group": "good",
+  "fps": 30.0,
+  "grasp": 78,
+  "release": 180,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4273529231548309,
+   0.4877442061901093
+  ],
+  "release_xy": [
+   0.6961632251739502,
+   0.6309255123138428
+  ]
+ },
+ "good_IMG_0802": {
+  "group": "good",
+  "fps": 30.0,
+  "grasp": 84,
+  "release": 168,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.43459959924221037,
+   0.5009495794773102
+  ],
+  "release_xy": [
+   0.7074623346328736,
+   0.6512146532535553
+  ]
+ },
+ "good_IMG_0803": {
+  "group": "good",
+  "fps": 29.994846246349425,
+  "grasp": 85,
+  "release": 177,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.42383009791374204,
+   0.5069162547588348
+  ],
+  "release_xy": [
+   0.6974520206451416,
+   0.6209227204322815
+  ]
+ },
+ "good_IMG_0804": {
+  "group": "good",
+  "fps": 29.99488141955298,
+  "grasp": 70,
+  "release": 177,
+  "ok": true,
+  "coverage": 0.888,
+  "grasp_xy": [
+   0.41773862242698667,
+   0.48348156809806825
+  ],
+  "release_xy": [
+   0.701638126373291,
+   0.6445575535297394
+  ]
+ },
+ "good_IMG_0805": {
+  "group": "good",
+  "fps": 30.0,
+  "grasp": 72,
+  "release": 157,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.44562997817993166,
+   0.45789758265018465
+  ],
+  "release_xy": [
+   0.7103586494922638,
+   0.6112320363521576
+  ]
+ },
+ "good_IMG_0806": {
+  "group": "good",
+  "fps": 30.0,
+  "grasp": 67,
+  "release": 143,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.40059552192687986,
+   0.49057993590831755
+  ],
+  "release_xy": [
+   0.7185317635536194,
+   0.5872666537761688
+  ]
+ },
+ "good_IMG_0807": {
+  "group": "good",
+  "fps": 30.0,
+  "grasp": 75,
+  "release": 191,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4051070898771286,
+   0.49793367385864257
+  ],
+  "release_xy": [
+   0.707137942314148,
+   0.6511883795261383
+  ]
+ },
+ "good_IMG_0808": {
+  "group": "good",
+  "fps": 30.0,
+  "grasp": 146,
+  "release": 190,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.69367715716362,
+   0.4240585058927536
+  ],
+  "release_xy": [
+   0.7125869393348694,
+   0.6058736324310303
+  ]
+ },
+ "good_IMG_0809": {
+  "group": "good",
+  "fps": 29.994792570734248,
+  "grasp": 111,
+  "release": 196,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.43208800852298734,
+   0.5151114702224732
+  ],
+  "release_xy": [
+   0.693735933303833,
+   0.5960513710975647
+  ]
+ },
+ "good_IMG_0810": {
+  "group": "good",
+  "fps": 30.0,
+  "grasp": 80,
+  "release": 167,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.42385486960411073,
+   0.49250613152980804
+  ],
+  "release_xy": [
+   0.6970309674739837,
+   0.6380390286445617
+  ]
+ },
+ "good_IMG_0811": {
+  "group": "good",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 1.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "good_IMG_0812": {
+  "group": "good",
+  "fps": 29.99505032172909,
+  "grasp": 82,
+  "release": 210,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4204041063785553,
+   0.4894499331712723
+  ],
+  "release_xy": [
+   0.7256159245967865,
+   0.6478017330169678
+  ]
+ },
+ "good_IMG_0813": {
+  "group": "good",
+  "fps": 30.0,
+  "grasp": 77,
+  "release": 166,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.3879635542631149,
+   0.503994208574295
+  ],
+  "release_xy": [
+   0.717758059501648,
+   0.6400095582008362
+  ]
+ },
+ "good_IMG_0814": {
+  "group": "good",
+  "fps": 30.0,
+  "grasp": 82,
+  "release": 174,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.40262393951416015,
+   0.5193159520626068
+  ],
+  "release_xy": [
+   0.7093752384185791,
+   0.6225499868392944
+  ]
+ },
+ "good_IMG_0815": {
+  "group": "good",
+  "fps": 30.0,
+  "grasp": 60,
+  "release": 159,
+  "ok": true,
+  "coverage": 0.783,
+  "grasp_xy": [
+   0.433339524269104,
+   0.5180753350257874
+  ],
+  "release_xy": [
+   0.7121457934379578,
+   0.6294211983680725
+  ]
+ },
+ "good_IMG_0816": {
+  "group": "good",
+  "fps": 30.0,
+  "grasp": 63,
+  "release": 144,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4380834698677063,
+   0.4889368385076523
+  ],
+  "release_xy": [
+   0.7088421940803528,
+   0.6114141702651977
+  ]
+ },
+ "good_IMG_0817": {
+  "group": "good",
+  "fps": 30.0,
+  "grasp": 58,
+  "release": 149,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.42817662954330443,
+   0.507425257563591
+  ],
+  "release_xy": [
+   0.7100882232189178,
+   0.6299505233764648
+  ]
+ },
+ "good_IMG_0818": {
+  "group": "good",
+  "fps": 30.0,
+  "grasp": 62,
+  "release": 147,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4276388943195343,
+   0.5052023231983185
+  ],
+  "release_xy": [
+   0.6943650484085083,
+   0.6411219298839569
+  ]
+ },
+ "good_IMG_0819": {
+  "group": "good",
+  "fps": 30.0,
+  "grasp": 116,
+  "release": 161,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.439167982339859,
+   0.35971965491771696
+  ],
+  "release_xy": [
+   0.7048742413520813,
+   0.594267475605011
+  ]
+ },
+ "good_IMG_0820": {
+  "group": "good",
+  "fps": 30.0,
+  "grasp": 88,
+  "release": 123,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.447589173913002,
+   0.24777142703533173
+  ],
+  "release_xy": [
+   0.7158915162086487,
+   0.5633528590202331
+  ]
+ },
+ "good_IMG_0821": {
+  "group": "good",
+  "fps": 30.0,
+  "grasp": 52,
+  "release": 144,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.42676879465579987,
+   0.49820533990859983
+  ],
+  "release_xy": [
+   0.6922039747238159,
+   0.6523802399635314
+  ]
+ },
+ "good_IMG_0822": {
+  "group": "good",
+  "fps": 30.0,
+  "grasp": 66,
+  "release": 139,
+  "ok": true,
+  "coverage": 0.812,
+  "grasp_xy": [
+   0.4027838945388794,
+   0.40659593641757963
+  ],
+  "release_xy": [
+   0.6924178719520568,
+   0.6222108900547028
+  ]
+ },
+ "good_IMG_0823": {
+  "group": "good",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.789,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "good_IMG_0824": {
+  "group": "good",
+  "fps": 30.0,
+  "grasp": 54,
+  "release": 139,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4138319343328476,
+   0.47556912899017334
+  ],
+  "release_xy": [
+   0.6981038212776184,
+   0.640795624256134
+  ]
+ },
+ "hard_IMG_0825": {
+  "group": "hard",
+  "fps": 30.0,
+  "grasp": 46,
+  "release": 62,
+  "ok": true,
+  "coverage": 0.454,
+  "grasp_xy": [
+   0.5863340795040131,
+   0.33604228496551514
+  ],
+  "release_xy": [
+   0.7015560567378998,
+   0.6422985196113586
+  ]
+ },
+ "hard_IMG_0826": {
+  "group": "hard",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.542,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "hard_IMG_0827": {
+  "group": "hard",
+  "fps": 30.0,
+  "grasp": 1,
+  "release": 8,
+  "ok": true,
+  "coverage": 0.613,
+  "grasp_xy": [
+   0.2904806360602379,
+   0.5925737023353577
+  ],
+  "release_xy": [
+   0.3908987820148468,
+   0.4296637952327728
+  ]
+ },
+ "hard_IMG_0828": {
+  "group": "hard",
+  "fps": 30.0,
+  "grasp": 59,
+  "release": null,
+  "ok": false,
+  "coverage": 0.882,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "hard_IMG_0829": {
+  "group": "hard",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.537,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "hard_IMG_0830": {
+  "group": "hard",
+  "fps": 30.0,
+  "grasp": 36,
+  "release": 53,
+  "ok": true,
+  "coverage": 0.779,
+  "grasp_xy": [
+   0.6113208711147309,
+   0.65295529961586
+  ],
+  "release_xy": [
+   0.38779954612255096,
+   0.49071642756462097
+  ]
+ },
+ "hard_IMG_0831": {
+  "group": "hard",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.653,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "hard_IMG_0832": {
+  "group": "hard",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.492,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "hard_IMG_0833": {
+  "group": "hard",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.778,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "hard_IMG_0834": {
+  "group": "hard",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.667,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion25_IMG_0786": {
+  "group": "motion25",
+  "fps": 29.995,
+  "grasp": 73,
+  "release": 152,
+  "ok": true,
+  "coverage": 0.803,
+  "grasp_xy": [
+   0.48649023473262787,
+   0.4326938033103943
+  ],
+  "release_xy": [
+   0.6870736002922058,
+   0.5292491614818573
+  ]
+ },
+ "motion25_IMG_0787": {
+  "group": "motion25",
+  "fps": 29.995,
+  "grasp": 90,
+  "release": 130,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4887869507074356,
+   0.454574379324913
+  ],
+  "release_xy": [
+   0.5258650839328766,
+   0.24811647683382035
+  ]
+ },
+ "motion25_IMG_0788": {
+  "group": "motion25",
+  "fps": 29.995,
+  "grasp": 125,
+  "release": 222,
+  "ok": true,
+  "coverage": 0.895,
+  "grasp_xy": [
+   0.45173544585704806,
+   0.4404282599687576
+  ],
+  "release_xy": [
+   0.7014707207679749,
+   0.6207652926445008
+  ]
+ },
+ "motion25_IMG_0789": {
+  "group": "motion25",
+  "fps": 29.995,
+  "grasp": 85,
+  "release": 91,
+  "ok": true,
+  "coverage": 0.993,
+  "grasp_xy": [
+   0.4510715663433075,
+   0.43785099387168885
+  ],
+  "release_xy": [
+   0.44998825192451475,
+   0.42422887980937957
+  ]
+ },
+ "motion25_IMG_0790": {
+  "group": "motion25",
+  "fps": 29.995,
+  "grasp": 105,
+  "release": 209,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4428742706775665,
+   0.44943412840366365
+  ],
+  "release_xy": [
+   0.6855939090251922,
+   0.619773668050766
+  ]
+ },
+ "motion25_IMG_0791": {
+  "group": "motion25",
+  "fps": 30.0,
+  "grasp": 69,
+  "release": 182,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.42459931373596194,
+   0.4656450510025024
+  ],
+  "release_xy": [
+   0.6964756548404694,
+   0.6135536730289459
+  ]
+ },
+ "motion25_IMG_0792": {
+  "group": "motion25",
+  "fps": 30.0,
+  "grasp": 84,
+  "release": 131,
+  "ok": true,
+  "coverage": 0.992,
+  "grasp_xy": [
+   0.40625734329223634,
+   0.4270227015018463
+  ],
+  "release_xy": [
+   0.52463219165802,
+   0.302732440829277
+  ]
+ },
+ "motion25_IMG_0793": {
+  "group": "motion25",
+  "fps": 30.0,
+  "grasp": 79,
+  "release": 160,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4083836913108826,
+   0.45229026973247527
+  ],
+  "release_xy": [
+   0.686305820941925,
+   0.6071056604385376
+  ]
+ },
+ "motion25_IMG_0794": {
+  "group": "motion25",
+  "fps": 30.0,
+  "grasp": 69,
+  "release": 106,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.421674108505249,
+   0.45938202142715456
+  ],
+  "release_xy": [
+   0.5990539789199829,
+   0.23635804504156113
+  ]
+ },
+ "motion25_IMG_0795": {
+  "group": "motion25",
+  "fps": 29.994,
+  "grasp": 74,
+  "release": 127,
+  "ok": true,
+  "coverage": 0.993,
+  "grasp_xy": [
+   0.41989676654338837,
+   0.46098244190216064
+  ],
+  "release_xy": [
+   0.6274894416332245,
+   0.2319888576865196
+  ]
+ },
+ "motion25_IMG_0796": {
+  "group": "motion25",
+  "fps": 30.0,
+  "grasp": 69,
+  "release": 132,
+  "ok": true,
+  "coverage": 0.993,
+  "grasp_xy": [
+   0.4039305329322815,
+   0.46654598116874696
+  ],
+  "release_xy": [
+   0.7142617642879486,
+   0.31244579553604124
+  ]
+ },
+ "motion25_IMG_0797": {
+  "group": "motion25",
+  "fps": 30.0,
+  "grasp": 91,
+  "release": 148,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4434496104717255,
+   0.5119377613067627
+  ],
+  "release_xy": [
+   0.7127805173397064,
+   0.4535136133432388
+  ]
+ },
+ "motion25_IMG_0798": {
+  "group": "motion25",
+  "fps": 30.0,
+  "grasp": 62,
+  "release": 119,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.43722785711288453,
+   0.5152273297309875
+  ],
+  "release_xy": [
+   0.7085824608802795,
+   0.5060526460409165
+  ]
+ },
+ "motion25_IMG_0799": {
+  "group": "motion25",
+  "fps": 30.0,
+  "grasp": 89,
+  "release": 118,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4305101305246353,
+   0.3758055031299591
+  ],
+  "release_xy": [
+   0.5191549837589264,
+   0.30728491544723513
+  ]
+ },
+ "motion25_IMG_0800": {
+  "group": "motion25",
+  "fps": 29.994,
+  "grasp": 82,
+  "release": 136,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4314184308052063,
+   0.4594286888837814
+  ],
+  "release_xy": [
+   0.6532338500022888,
+   0.3685097634792328
+  ]
+ },
+ "motion25_IMG_0801": {
+  "group": "motion25",
+  "fps": 30.0,
+  "grasp": 78,
+  "release": 148,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4308229833841324,
+   0.4852481037378311
+  ],
+  "release_xy": [
+   0.7041625916957855,
+   0.5633885979652404
+  ]
+ },
+ "motion25_IMG_0802": {
+  "group": "motion25",
+  "fps": 30.0,
+  "grasp": 85,
+  "release": 167,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.43773671984672546,
+   0.49145048260688784
+  ],
+  "release_xy": [
+   0.7127197206020355,
+   0.64653400182724
+  ]
+ },
+ "motion25_IMG_0803": {
+  "group": "motion25",
+  "fps": 29.995,
+  "grasp": 88,
+  "release": 178,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4284227818250656,
+   0.49190290570259093
+  ],
+  "release_xy": [
+   0.6984268069267273,
+   0.6147697448730469
+  ]
+ },
+ "motion25_IMG_0804": {
+  "group": "motion25",
+  "fps": 29.995,
+  "grasp": 70,
+  "release": 176,
+  "ok": true,
+  "coverage": 0.872,
+  "grasp_xy": [
+   0.41915282011032107,
+   0.4774153232574463
+  ],
+  "release_xy": [
+   0.702969753742218,
+   0.6424421787261962
+  ]
+ },
+ "motion25_IMG_0805": {
+  "group": "motion25",
+  "fps": 30.0,
+  "grasp": 72,
+  "release": 157,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4464805036783218,
+   0.45271456241607666
+  ],
+  "release_xy": [
+   0.7110311806201934,
+   0.6072210550308228
+  ]
+ },
+ "motion25_IMG_0806": {
+  "group": "motion25",
+  "fps": 30.0,
+  "grasp": 78,
+  "release": 115,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.41857065856456754,
+   0.4056254833936691
+  ],
+  "release_xy": [
+   0.6036884486675262,
+   0.3904757499694824
+  ]
+ },
+ "motion25_IMG_0807": {
+  "group": "motion25",
+  "fps": 30.0,
+  "grasp": 75,
+  "release": 159,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.40663504898548125,
+   0.4948795199394226
+  ],
+  "release_xy": [
+   0.7176454484462738,
+   0.5745703399181366
+  ]
+ },
+ "motion25_IMG_0808": {
+  "group": "motion25",
+  "fps": 30.0,
+  "grasp": 88,
+  "release": 161,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4362689971923828,
+   0.48931229710578916
+  ],
+  "release_xy": [
+   0.7202444851398468,
+   0.5782660603523254
+  ]
+ },
+ "motion25_IMG_0809": {
+  "group": "motion25",
+  "fps": 29.995,
+  "grasp": 111,
+  "release": 121,
+  "ok": true,
+  "coverage": 0.993,
+  "grasp_xy": [
+   0.4312963098287582,
+   0.5110483467578888
+  ],
+  "release_xy": [
+   0.4308374851942062,
+   0.48850980401039124
+  ]
+ },
+ "motion25_IMG_0810": {
+  "group": "motion25",
+  "fps": 30.0,
+  "grasp": 78,
+  "release": 142,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.42894198596477506,
+   0.48777822554111483
+  ],
+  "release_xy": [
+   0.7052205026149749,
+   0.5239325582981109
+  ]
+ },
+ "motion25_IMG_0811": {
+  "group": "motion25",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 1.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion25_IMG_0812": {
+  "group": "motion25",
+  "fps": 29.995,
+  "grasp": 84,
+  "release": 181,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4215170115232468,
+   0.48964857757091523
+  ],
+  "release_xy": [
+   0.7344282031059265,
+   0.5903285264968872
+  ]
+ },
+ "motion25_IMG_0813": {
+  "group": "motion25",
+  "fps": 30.0,
+  "grasp": 76,
+  "release": 138,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.3886830061674118,
+   0.4998632937669754
+  ],
+  "release_xy": [
+   0.7227104961872101,
+   0.4563453733921051
+  ]
+ },
+ "motion25_IMG_0814": {
+  "group": "motion25",
+  "fps": 30.0,
+  "grasp": 81,
+  "release": 174,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.404665207862854,
+   0.516334730386734
+  ],
+  "release_xy": [
+   0.7123103976249695,
+   0.6150308847427368
+  ]
+ },
+ "motion25_IMG_0815": {
+  "group": "motion25",
+  "fps": 30.0,
+  "grasp": 71,
+  "release": 145,
+  "ok": true,
+  "coverage": 0.787,
+  "grasp_xy": [
+   0.4350000858306885,
+   0.41609140336513517
+  ],
+  "release_xy": [
+   0.7160374164581299,
+   0.5773608088493347
+  ]
+ },
+ "motion25_IMG_0816": {
+  "group": "motion25",
+  "fps": 30.0,
+  "grasp": 63,
+  "release": 146,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4405915647745132,
+   0.4853195518255234
+  ],
+  "release_xy": [
+   0.7123219966888428,
+   0.5932437896728515
+  ]
+ },
+ "motion25_IMG_0817": {
+  "group": "motion25",
+  "fps": 30.0,
+  "grasp": 57,
+  "release": 143,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4297111600637436,
+   0.5044034004211426
+  ],
+  "release_xy": [
+   0.7090566337108613,
+   0.6277743756771088
+  ]
+ },
+ "motion25_IMG_0818": {
+  "group": "motion25",
+  "fps": 30.0,
+  "grasp": 62,
+  "release": 126,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.43127739429473877,
+   0.5052027642726898
+  ],
+  "release_xy": [
+   0.7094240844249725,
+   0.5531582832336426
+  ]
+ },
+ "motion25_IMG_0819": {
+  "group": "motion25",
+  "fps": 30.0,
+  "grasp": 91,
+  "release": 139,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.42486147582530975,
+   0.5144629299640655
+  ],
+  "release_xy": [
+   0.6445860266685486,
+   0.40952369272708894
+  ]
+ },
+ "motion25_IMG_0820": {
+  "group": "motion25",
+  "fps": 30.0,
+  "grasp": 61,
+  "release": 122,
+  "ok": true,
+  "coverage": 0.991,
+  "grasp_xy": [
+   0.43187545239925385,
+   0.49378209710121157
+  ],
+  "release_xy": [
+   0.7200575351715088,
+   0.5493826031684875
+  ]
+ },
+ "motion25_IMG_0821": {
+  "group": "motion25",
+  "fps": 30.0,
+  "grasp": 65,
+  "release": 104,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.434181746840477,
+   0.36670874059200287
+  ],
+  "release_xy": [
+   0.6884977757930756,
+   0.3012809306383133
+  ]
+ },
+ "motion25_IMG_0822": {
+  "group": "motion25",
+  "fps": 30.0,
+  "grasp": 56,
+  "release": 83,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4044453889131546,
+   0.4769493579864502
+  ],
+  "release_xy": [
+   0.48251813650131226,
+   0.24413713812828064
+  ]
+ },
+ "motion25_IMG_0823": {
+  "group": "motion25",
+  "fps": 30.0,
+  "grasp": 50,
+  "release": 94,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4174979716539383,
+   0.4888565331697464
+  ],
+  "release_xy": [
+   0.669168335199356,
+   0.3546077609062195
+  ]
+ },
+ "motion25_IMG_0824": {
+  "group": "motion25",
+  "fps": 30.0,
+  "grasp": 51,
+  "release": 117,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.42167071998119354,
+   0.4886681795120239
+  ],
+  "release_xy": [
+   0.7096164703369141,
+   0.5921509146690369
+  ]
+ },
+ "motion40_IMG_0786": {
+  "group": "motion40",
+  "fps": 29.995,
+  "grasp": 77,
+  "release": 151,
+  "ok": true,
+  "coverage": 0.791,
+  "grasp_xy": [
+   0.4870580077171326,
+   0.41746796667575836
+  ],
+  "release_xy": [
+   0.6862631678581238,
+   0.517170986533165
+  ]
+ },
+ "motion40_IMG_0787": {
+  "group": "motion40",
+  "fps": 29.995,
+  "grasp": 95,
+  "release": 123,
+  "ok": true,
+  "coverage": 0.965,
+  "grasp_xy": [
+   0.4940878689289093,
+   0.4138726323843002
+  ],
+  "release_xy": [
+   0.500841212272644,
+   0.17100324481725693
+  ]
+ },
+ "motion40_IMG_0788": {
+  "group": "motion40",
+  "fps": 29.995,
+  "grasp": 135,
+  "release": 242,
+  "ok": true,
+  "coverage": 0.422,
+  "grasp_xy": [
+   0.45596939623355864,
+   0.34630542397499087
+  ],
+  "release_xy": [
+   0.7130360007286072,
+   0.30540137737989426
+  ]
+ },
+ "motion40_IMG_0789": {
+  "group": "motion40",
+  "fps": 29.995,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.709,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion40_IMG_0790": {
+  "group": "motion40",
+  "fps": 29.995,
+  "grasp": 115,
+  "release": 210,
+  "ok": true,
+  "coverage": 0.991,
+  "grasp_xy": [
+   0.44404176870981854,
+   0.3816597710053126
+  ],
+  "release_xy": [
+   0.687161785364151,
+   0.6203758418560028
+  ]
+ },
+ "motion40_IMG_0791": {
+  "group": "motion40",
+  "fps": 30.0,
+  "grasp": 89,
+  "release": 184,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.438016340136528,
+   0.22386996944745383
+  ],
+  "release_xy": [
+   0.6913708567619323,
+   0.5892926812171936
+  ]
+ },
+ "motion40_IMG_0792": {
+  "group": "motion40",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.984,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion40_IMG_0793": {
+  "group": "motion40",
+  "fps": 30.0,
+  "grasp": 78,
+  "release": 161,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.40904976725578307,
+   0.452012899518013
+  ],
+  "release_xy": [
+   0.6872522056102752,
+   0.605783486366272
+  ]
+ },
+ "motion40_IMG_0794": {
+  "group": "motion40",
+  "fps": 30.0,
+  "grasp": 76,
+  "release": 108,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4274875819683075,
+   0.4271893918514252
+  ],
+  "release_xy": [
+   0.6300507605075836,
+   0.26194913387298585
+  ]
+ },
+ "motion40_IMG_0795": {
+  "group": "motion40",
+  "fps": 29.994,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.752,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion40_IMG_0796": {
+  "group": "motion40",
+  "fps": 30.0,
+  "grasp": 98,
+  "release": 111,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.437657567858696,
+   0.21438244879245758
+  ],
+  "release_xy": [
+   0.5233996629714965,
+   0.21155702024698259
+  ]
+ },
+ "motion40_IMG_0797": {
+  "group": "motion40",
+  "fps": 30.0,
+  "grasp": 92,
+  "release": 149,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.44582413136959076,
+   0.5089288413524627
+  ],
+  "release_xy": [
+   0.7084446907043457,
+   0.4693708002567291
+  ]
+ },
+ "motion40_IMG_0798": {
+  "group": "motion40",
+  "fps": 30.0,
+  "grasp": 61,
+  "release": 112,
+  "ok": true,
+  "coverage": 0.991,
+  "grasp_xy": [
+   0.4378745824098587,
+   0.5168738067150116
+  ],
+  "release_xy": [
+   0.7033928155899047,
+   0.45109012722969055
+  ]
+ },
+ "motion40_IMG_0799": {
+  "group": "motion40",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 1.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion40_IMG_0800": {
+  "group": "motion40",
+  "fps": 29.994,
+  "grasp": 105,
+  "release": 159,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4563854783773422,
+   0.17719362676143646
+  ],
+  "release_xy": [
+   0.6844225406646729,
+   0.5928397715091706
+  ]
+ },
+ "motion40_IMG_0801": {
+  "group": "motion40",
+  "fps": 30.0,
+  "grasp": 116,
+  "release": 149,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.5632221043109894,
+   0.34850082993507386
+  ],
+  "release_xy": [
+   0.7057591199874877,
+   0.5737332940101624
+  ]
+ },
+ "motion40_IMG_0802": {
+  "group": "motion40",
+  "fps": 30.0,
+  "grasp": 84,
+  "release": 103,
+  "ok": true,
+  "coverage": 0.938,
+  "grasp_xy": [
+   0.43613808453083036,
+   0.49640725255012513
+  ],
+  "release_xy": [
+   0.47101180255413055,
+   0.30370317995548246
+  ]
+ },
+ "motion40_IMG_0803": {
+  "group": "motion40",
+  "fps": 29.995,
+  "grasp": 136,
+  "release": 178,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.685186094045639,
+   0.31839696168899534
+  ],
+  "release_xy": [
+   0.699530428647995,
+   0.6172212660312653
+  ]
+ },
+ "motion40_IMG_0804": {
+  "group": "motion40",
+  "fps": 29.995,
+  "grasp": 68,
+  "release": 175,
+  "ok": true,
+  "coverage": 0.791,
+  "grasp_xy": [
+   0.42005245089530946,
+   0.48227173686027525
+  ],
+  "release_xy": [
+   0.7019855034351349,
+   0.6405551433563232
+  ]
+ },
+ "motion40_IMG_0805": {
+  "group": "motion40",
+  "fps": 30.0,
+  "grasp": 118,
+  "release": 156,
+  "ok": true,
+  "coverage": 0.929,
+  "grasp_xy": [
+   0.6659633994102478,
+   0.37351263165473936
+  ],
+  "release_xy": [
+   0.7103154838085175,
+   0.6029545962810516
+  ]
+ },
+ "motion40_IMG_0806": {
+  "group": "motion40",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.992,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion40_IMG_0807": {
+  "group": "motion40",
+  "fps": 30.0,
+  "grasp": 75,
+  "release": 163,
+  "ok": true,
+  "coverage": 0.732,
+  "grasp_xy": [
+   0.407349044084549,
+   0.49654344022274016
+  ],
+  "release_xy": [
+   0.7119502484798431,
+   0.6073425233364105
+  ]
+ },
+ "motion40_IMG_0808": {
+  "group": "motion40",
+  "fps": 30.0,
+  "grasp": 91,
+  "release": 161,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4371216148138046,
+   0.4894974768161774
+  ],
+  "release_xy": [
+   0.7197226524353028,
+   0.5794396281242371
+  ]
+ },
+ "motion40_IMG_0809": {
+  "group": "motion40",
+  "fps": 29.995,
+  "grasp": 117,
+  "release": 210,
+  "ok": true,
+  "coverage": 0.824,
+  "grasp_xy": [
+   0.4327551156282425,
+   0.5016494154930115
+  ],
+  "release_xy": [
+   0.6805398821830749,
+   0.6261291980743409
+  ]
+ },
+ "motion40_IMG_0810": {
+  "group": "motion40",
+  "fps": 30.0,
+  "grasp": 87,
+  "release": 148,
+  "ok": true,
+  "coverage": 0.656,
+  "grasp_xy": [
+   0.43295702934265134,
+   0.4126910299062729
+  ],
+  "release_xy": [
+   0.7236183881759644,
+   0.5578303560614586
+  ]
+ },
+ "motion40_IMG_0811": {
+  "group": "motion40",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 1.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion40_IMG_0812": {
+  "group": "motion40",
+  "fps": 29.995,
+  "grasp": 86,
+  "release": 180,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.42187167704105377,
+   0.4936548322439194
+  ],
+  "release_xy": [
+   0.735036188364029,
+   0.5805444657802582
+  ]
+ },
+ "motion40_IMG_0813": {
+  "group": "motion40",
+  "fps": 30.0,
+  "grasp": 74,
+  "release": 168,
+  "ok": true,
+  "coverage": 0.578,
+  "grasp_xy": [
+   0.3855457405249278,
+   0.4959382116794586
+  ],
+  "release_xy": [
+   0.7210728228092194,
+   0.6104943056901296
+  ]
+ },
+ "motion40_IMG_0814": {
+  "group": "motion40",
+  "fps": 30.0,
+  "grasp": 80,
+  "release": 174,
+  "ok": true,
+  "coverage": 0.962,
+  "grasp_xy": [
+   0.4048613429069519,
+   0.5207217276096344
+  ],
+  "release_xy": [
+   0.7110107779502869,
+   0.6119566142559052
+  ]
+ },
+ "motion40_IMG_0815": {
+  "group": "motion40",
+  "fps": 30.0,
+  "grasp": 90,
+  "release": 126,
+  "ok": true,
+  "coverage": 0.754,
+  "grasp_xy": [
+   0.4505130618810654,
+   0.2518202722072601
+  ],
+  "release_xy": [
+   0.706553703546524,
+   0.4086837112903595
+  ]
+ },
+ "motion40_IMG_0816": {
+  "group": "motion40",
+  "fps": 30.0,
+  "grasp": 66,
+  "release": 107,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4405295789241791,
+   0.47835640907287597
+  ],
+  "release_xy": [
+   0.6550205886363983,
+   0.39158915281295775
+  ]
+ },
+ "motion40_IMG_0817": {
+  "group": "motion40",
+  "fps": 30.0,
+  "grasp": 76,
+  "release": 83,
+  "ok": true,
+  "coverage": 0.792,
+  "grasp_xy": [
+   0.4352376490831375,
+   0.32590542882680895
+  ],
+  "release_xy": [
+   0.4478415161371231,
+   0.28516472280025484
+  ]
+ },
+ "motion40_IMG_0818": {
+  "group": "motion40",
+  "fps": 30.0,
+  "grasp": 62,
+  "release": 94,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.43424567580223083,
+   0.5058522701263428
+  ],
+  "release_xy": [
+   0.47405585646629333,
+   0.3726370960474014
+  ]
+ },
+ "motion40_IMG_0819": {
+  "group": "motion40",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.986,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion40_IMG_0820": {
+  "group": "motion40",
+  "fps": 30.0,
+  "grasp": 69,
+  "release": 124,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4330726057291031,
+   0.454244127869606
+  ],
+  "release_xy": [
+   0.7230080366134644,
+   0.5695674240589141
+  ]
+ },
+ "motion40_IMG_0821": {
+  "group": "motion40",
+  "fps": 30.0,
+  "grasp": 63,
+  "release": 103,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4322756052017212,
+   0.3941615253686905
+  ],
+  "release_xy": [
+   0.6807613611221314,
+   0.29328069388866423
+  ]
+ },
+ "motion40_IMG_0822": {
+  "group": "motion40",
+  "fps": 30.0,
+  "grasp": 65,
+  "release": 83,
+  "ok": true,
+  "coverage": 0.877,
+  "grasp_xy": [
+   0.40800448715686793,
+   0.4031629198789597
+  ],
+  "release_xy": [
+   0.4860295712947845,
+   0.23701187521219252
+  ]
+ },
+ "motion40_IMG_0823": {
+  "group": "motion40",
+  "fps": 30.0,
+  "grasp": 50,
+  "release": 95,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4207778424024582,
+   0.4888537347316742
+  ],
+  "release_xy": [
+   0.6775897145271301,
+   0.3607758224010468
+  ]
+ },
+ "motion40_IMG_0824": {
+  "group": "motion40",
+  "fps": 30.0,
+  "grasp": 51,
+  "release": 123,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4216881603002548,
+   0.48879916667938234
+  ],
+  "release_xy": [
+   0.7096773505210876,
+   0.6315682888031006
+  ]
+ },
+ "motion60_IMG_0786": {
+  "group": "motion60",
+  "fps": 29.995,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.396,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion60_IMG_0787": {
+  "group": "motion60",
+  "fps": 29.995,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.296,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion60_IMG_0788": {
+  "group": "motion60",
+  "fps": 29.995,
+  "grasp": 179,
+  "release": null,
+  "ok": false,
+  "coverage": 0.625,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion60_IMG_0789": {
+  "group": "motion60",
+  "fps": 29.995,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.326,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion60_IMG_0790": {
+  "group": "motion60",
+  "fps": 29.995,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 1.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion60_IMG_0791": {
+  "group": "motion60",
+  "fps": 30.0,
+  "grasp": 153,
+  "release": 192,
+  "ok": true,
+  "coverage": 0.386,
+  "grasp_xy": [
+   0.7162246465682983,
+   0.5587005019187927
+  ],
+  "release_xy": [
+   0.7200534343719482,
+   0.3577290028333664
+  ]
+ },
+ "motion60_IMG_0792": {
+  "group": "motion60",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.825,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion60_IMG_0793": {
+  "group": "motion60",
+  "fps": 30.0,
+  "grasp": 130,
+  "release": 161,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.6982458606362343,
+   0.5014273338019848
+  ],
+  "release_xy": [
+   0.6877825617790222,
+   0.6063917219638825
+  ]
+ },
+ "motion60_IMG_0794": {
+  "group": "motion60",
+  "fps": 30.0,
+  "grasp": 93,
+  "release": 110,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4581239104270935,
+   0.23327966630458832
+  ],
+  "release_xy": [
+   0.6562676548957824,
+   0.2900648534297943
+  ]
+ },
+ "motion60_IMG_0795": {
+  "group": "motion60",
+  "fps": 29.994,
+  "grasp": 86,
+  "release": 117,
+  "ok": true,
+  "coverage": 0.485,
+  "grasp_xy": [
+   0.4228173792362213,
+   0.3829158842563629
+  ],
+  "release_xy": [
+   0.5176129639148712,
+   0.20228955149650574
+  ]
+ },
+ "motion60_IMG_0796": {
+  "group": "motion60",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.934,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion60_IMG_0797": {
+  "group": "motion60",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 1.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion60_IMG_0798": {
+  "group": "motion60",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.9,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion60_IMG_0799": {
+  "group": "motion60",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.874,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion60_IMG_0800": {
+  "group": "motion60",
+  "fps": 29.994,
+  "grasp": 144,
+  "release": 155,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.6863122284412384,
+   0.5224682589372
+  ],
+  "release_xy": [
+   0.6893362581729889,
+   0.5714435160160065
+  ]
+ },
+ "motion60_IMG_0801": {
+  "group": "motion60",
+  "fps": 30.0,
+  "grasp": 143,
+  "release": 153,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.7102685749530793,
+   0.5284851461648941
+  ],
+  "release_xy": [
+   0.7068715333938599,
+   0.605865353345871
+  ]
+ },
+ "motion60_IMG_0802": {
+  "group": "motion60",
+  "fps": 30.0,
+  "grasp": 140,
+  "release": 179,
+  "ok": true,
+  "coverage": 0.073,
+  "grasp_xy": [
+   0.7221343517303467,
+   0.48684412240982056
+  ],
+  "release_xy": [
+   0.7413433343172073,
+   0.2803928405046463
+  ]
+ },
+ "motion60_IMG_0803": {
+  "group": "motion60",
+  "fps": 29.995,
+  "grasp": 139,
+  "release": 176,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.6871551672617594,
+   0.36416130761305493
+  ],
+  "release_xy": [
+   0.6982743501663208,
+   0.6198888003826142
+  ]
+ },
+ "motion60_IMG_0804": {
+  "group": "motion60",
+  "fps": 29.995,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.368,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion60_IMG_0805": {
+  "group": "motion60",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 1.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion60_IMG_0806": {
+  "group": "motion60",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.966,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion60_IMG_0807": {
+  "group": "motion60",
+  "fps": 30.0,
+  "grasp": 143,
+  "release": 197,
+  "ok": true,
+  "coverage": 0.412,
+  "grasp_xy": [
+   0.7456972002983093,
+   0.34638152122497556
+  ],
+  "release_xy": [
+   0.7331622143586477,
+   0.4688858985900879
+  ]
+ },
+ "motion60_IMG_0808": {
+  "group": "motion60",
+  "fps": 30.0,
+  "grasp": 98,
+  "release": 160,
+  "ok": true,
+  "coverage": 0.518,
+  "grasp_xy": [
+   0.4417405605316162,
+   0.4653457224369049
+  ],
+  "release_xy": [
+   0.7242080569267273,
+   0.5685598731040955
+  ]
+ },
+ "motion60_IMG_0809": {
+  "group": "motion60",
+  "fps": 29.995,
+  "grasp": 168,
+  "release": null,
+  "ok": false,
+  "coverage": 0.163,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion60_IMG_0810": {
+  "group": "motion60",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 1.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion60_IMG_0811": {
+  "group": "motion60",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.664,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion60_IMG_0812": {
+  "group": "motion60",
+  "fps": 29.995,
+  "grasp": 101,
+  "release": 172,
+  "ok": true,
+  "coverage": 0.815,
+  "grasp_xy": [
+   0.4231991946697235,
+   0.4658768057823181
+  ],
+  "release_xy": [
+   0.7589333236217499,
+   0.48745090067386626
+  ]
+ },
+ "motion60_IMG_0813": {
+  "group": "motion60",
+  "fps": 30.0,
+  "grasp": 142,
+  "release": 174,
+  "ok": true,
+  "coverage": 0.366,
+  "grasp_xy": [
+   0.7327436447143555,
+   0.5448545217514038
+  ],
+  "release_xy": [
+   0.7325638035933176,
+   0.4826870411634445
+  ]
+ },
+ "motion60_IMG_0814": {
+  "group": "motion60",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion60_IMG_0815": {
+  "group": "motion60",
+  "fps": 30.0,
+  "grasp": 45,
+  "release": 82,
+  "ok": true,
+  "coverage": 0.6,
+  "grasp_xy": [
+   0.4358457624912262,
+   0.41543226937452954
+  ],
+  "release_xy": [
+   0.44368188828229904,
+   0.2672954611480236
+  ]
+ },
+ "motion60_IMG_0816": {
+  "group": "motion60",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 1.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion60_IMG_0817": {
+  "group": "motion60",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.032,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion60_IMG_0818": {
+  "group": "motion60",
+  "fps": 30.0,
+  "grasp": 63,
+  "release": 102,
+  "ok": true,
+  "coverage": 0.567,
+  "grasp_xy": [
+   0.4402125984430313,
+   0.502677521109581
+  ],
+  "release_xy": [
+   0.5555935502052307,
+   0.39162180324395496
+  ]
+ },
+ "motion60_IMG_0819": {
+  "group": "motion60",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.942,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion60_IMG_0820": {
+  "group": "motion60",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.782,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion60_IMG_0821": {
+  "group": "motion60",
+  "fps": 30.0,
+  "grasp": 64,
+  "release": 99,
+  "ok": true,
+  "coverage": 0.744,
+  "grasp_xy": [
+   0.4341240808367729,
+   0.3759303644299507
+  ],
+  "release_xy": [
+   0.6358875036239624,
+   0.28422028124332427
+  ]
+ },
+ "motion60_IMG_0822": {
+  "group": "motion60",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 1.0,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion60_IMG_0823": {
+  "group": "motion60",
+  "fps": 30.0,
+  "grasp": null,
+  "release": null,
+  "ok": false,
+  "coverage": 0.73,
+  "grasp_xy": null,
+  "release_xy": null
+ },
+ "motion60_IMG_0824": {
+  "group": "motion60",
+  "fps": 30.0,
+  "grasp": 98,
+  "release": 124,
+  "ok": true,
+  "coverage": 0.745,
+  "grasp_xy": [
+   0.7034500479698181,
+   0.32846873700618745
+  ],
+  "release_xy": [
+   0.71568718791008,
+   0.6478141665458679
+  ]
+ },
+ "new_IMG_0873": {
+  "group": "new",
+  "fps": 29.99683577681679,
+  "grasp": 175,
+  "release": 325,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.5170961380004883,
+   0.8149530291557312
+  ],
+  "release_xy": [
+   0.821105569601059,
+   0.6439496099948883
+  ]
+ },
+ "new_IMG_0874": {
+  "group": "new",
+  "fps": 29.995935510093485,
+  "grasp": 166,
+  "release": 204,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.5180947303771972,
+   0.8051355898380279
+  ],
+  "release_xy": [
+   0.544762772321701,
+   0.38673423826694486
+  ]
+ },
+ "new_IMG_0876": {
+  "group": "new",
+  "fps": 29.9966220020268,
+  "grasp": 194,
+  "release": 307,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.4238987624645233,
+   0.41224488615989685
+  ],
+  "release_xy": [
+   0.7954405665397644,
+   0.44198884069919586
+  ]
+ },
+ "new_IMG_0877": {
+  "group": "new",
+  "fps": 29.995739241585003,
+  "grasp": 155,
+  "release": 262,
+  "ok": true,
+  "coverage": 0.704,
+  "grasp_xy": [
+   0.3652799606323242,
+   0.37343026995658873
+  ],
+  "release_xy": [
+   0.8177266001701355,
+   0.6391210615634918
+  ]
+ },
+ "new_IMG_0878": {
+  "group": "new",
+  "fps": 29.996032270863644,
+  "grasp": 263,
+  "release": 268,
+  "ok": true,
+  "coverage": 0.724,
+  "grasp_xy": [
+   0.8390002131462098,
+   0.43068870306015017
+  ],
+  "release_xy": [
+   0.8292637228965759,
+   0.49517751336097715
+  ]
+ },
+ "new_IMG_0880": {
+  "group": "new",
+  "fps": 29.995690274385865,
+  "grasp": 145,
+  "release": 246,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.22278763204813004,
+   0.21568950712680818
+  ],
+  "release_xy": [
+   0.8263674199581146,
+   0.5974267244338989
+  ]
+ },
+ "new_IMG_0881": {
+  "group": "new",
+  "fps": 29.995238850976037,
+  "grasp": 128,
+  "release": 239,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.14609184712171555,
+   0.5125630855560303
+  ],
+  "release_xy": [
+   0.8254805862903595,
+   0.6383098721504211
+  ]
+ },
+ "new_IMG_0882": {
+  "group": "new",
+  "fps": 29.985372988785958,
+  "grasp": 181,
+  "release": 334,
+  "ok": true,
+  "coverage": 0.992,
+  "grasp_xy": [
+   0.15505115389823915,
+   0.4943825602531433
+  ],
+  "release_xy": [
+   0.8382879316806793,
+   0.5832251667976379
+  ]
+ },
+ "new_IMG_0883": {
+  "group": "new",
+  "fps": 29.995208433157643,
+  "grasp": 146,
+  "release": 188,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.5772955358028412,
+   0.49361006915569305
+  ],
+  "release_xy": [
+   0.655018013715744,
+   0.3162080705165863
+  ]
+ },
+ "new_IMG_0884": {
+  "group": "new",
+  "fps": 29.994424828098868,
+  "grasp": 98,
+  "release": 195,
+  "ok": true,
+  "coverage": 0.995,
+  "grasp_xy": [
+   0.547605836391449,
+   0.470019719004631
+  ],
+  "release_xy": [
+   0.8672399759292603,
+   0.6144255757331848
+  ]
+ },
+ "new_IMG_0885": {
+  "group": "new",
+  "fps": 29.9961444544403,
+  "grasp": 85,
+  "release": 210,
+  "ok": true,
+  "coverage": 0.953,
+  "grasp_xy": [
+   0.8097482740879058,
+   0.50958291888237
+  ],
+  "release_xy": [
+   0.6268589496612549,
+   0.19344905018806458
+  ]
+ },
+ "new_IMG_0890": {
+  "group": "new",
+  "fps": 29.996681782988606,
+  "grasp": 174,
+  "release": 296,
+  "ok": true,
+  "coverage": 1.0,
+  "grasp_xy": [
+   0.5600429534912109,
+   0.7881770968437195
+  ],
+  "release_xy": [
+   0.936241614818573,
+   0.44537616670131686
+  ]
+ }
+}
