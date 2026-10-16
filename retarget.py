@@ -1,6 +1,3 @@
-"""Turn tracked hand clips into robot motions in LIBERO and replay them.
-Usage: python retarget.py                 (all clips)
-       python retarget.py good_IMG_0790   (just these clips)"""
 import os, sys, json, glob
 os.environ["MUJOCO_GL"] = "egl"
 import numpy as np, h5py, imageio
