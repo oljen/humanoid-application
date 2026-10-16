@@ -1,5 +1,3 @@
-"""For each tracked clip: fill short tracking gaps, smooth, find grab and release
-from the pinch signal, and save a processed track plus a summary."""
 import glob, json, os
 import numpy as np, cv2
 import matplotlib; matplotlib.use("Agg")
